@@ -141,8 +141,9 @@ wasm-pack build --target web
 
 ### Core Documentation
 - [Technical Plan & Architecture](./docs/TECHNICAL_PLAN.md)
-- [AgenticDB Quick Start](./AGENTICDB_QUICKSTART.md)
-- [Optimization Guide](./OPTIMIZATION_QUICK_START.md)
+- [Documentation Index](./docs/README.md) - Complete docs organization
+- [AgenticDB Quick Start](./docs/getting-started/AGENTICDB_QUICKSTART.md)
+- [Optimization Guide](./docs/getting-started/OPTIMIZATION_QUICK_START.md)
 - [Changelog](./CHANGELOG.md)
 
 ### Cloud Deployment ✨ **NEW**
@@ -206,7 +207,10 @@ See [Implementation Summary](./docs/IMPLEMENTATION_SUMMARY.md) for complete deta
 
 ## Contributing
 
-Contributions are welcome! Please see [IMPLEMENTATION_SUMMARY.md](./docs/IMPLEMENTATION_SUMMARY.md) for development guidelines.
+Contributions are welcome! Please see:
+- [Contributing Guidelines](./docs/development/CONTRIBUTING.md) - How to contribute
+- [Development Guide](./docs/development/MIGRATION.md) - Development setup
+- [Implementation Summary](./docs/IMPLEMENTATION_SUMMARY.md) - Architecture overview
 
 ## License
 
