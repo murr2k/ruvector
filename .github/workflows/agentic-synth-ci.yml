@@ -96,6 +96,7 @@ jobs:
 
       - name: Verify build artifacts
         working-directory: ${{ env.PACKAGE_PATH }}
+        shell: bash
         run: |
           ls -lah dist/
           test -f dist/index.js || (echo "ESM build missing" && exit 1)
@@ -105,6 +106,7 @@ jobs:
 
       - name: Test CLI executable
         working-directory: ${{ env.PACKAGE_PATH }}
+        shell: bash
         run: |
           chmod +x bin/cli.js
           ./bin/cli.js --help
