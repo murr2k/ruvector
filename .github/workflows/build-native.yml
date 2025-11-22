@@ -95,6 +95,7 @@ jobs:
 
       - name: Find built .node files (debug)
         if: steps.check_crates.outputs.exists == 'true'
+        shell: bash
         run: |
           echo "=== Searching entire workspace for .node files ==="
           find . -name "*.node" -type f 2>/dev/null || true
