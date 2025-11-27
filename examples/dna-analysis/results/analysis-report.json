@@ -1,0 +1,6840 @@
+[
+  {
+    "geneName": "NM_007294.4 Homo sapiens BRCA1 DNA repair associated (BRCA1), transcript variant 1, mRNA",
+    "timestamp": "2025-11-27T18:21:53.825Z",
+    "basicStats": {
+      "length": 5705,
+      "baseCounts": {
+        "A": 1955,
+        "T": 1381,
+        "G": 1277,
+        "C": 1092
+      },
+      "gcContent": "41.52",
+      "atContent": "58.48",
+      "gcSkew": "0.0781",
+      "atSkew": "0.1721"
+    },
+    "kmerAnalysis": {
+      "k3": {
+        "k": 3,
+        "totalKmers": 64,
+        "topKmers": [
+          [
+            "AAA",
+            263
+          ],
+          [
+            "GAA",
+            227
+          ],
+          [
+            "AGA",
+            200
+          ],
+          [
+            "AAG",
+            191
+          ],
+          [
+            "CAG",
+            160
+          ],
+          [
+            "TGA",
+            156
+          ],
+          [
+            "AAT",
+            156
+          ],
+          [
+            "CAA",
+            130
+          ],
+          [
+            "CTG",
+            127
+          ],
+          [
+            "AGT",
+            125
+          ],
+          [
+            "ACA",
+            121
+          ],
+          [
+            "ATG",
+            121
+          ],
+          [
+            "TCA",
+            120
+          ],
+          [
+            "AAC",
+            118
+          ],
+          [
+            "GAG",
+            115
+          ],
+          [
+            "TCT",
+            109
+          ],
+          [
+            "CCA",
+            109
+          ],
+          [
+            "GGA",
+            108
+          ],
+          [
+            "AGG",
+            108
+          ],
+          [
+            "TAA",
+            108
+          ]
+        ],
+        "uniqueRatio": "0.0112"
+      },
+      "k4": {
+        "k": 4,
+        "totalKmers": 249,
+        "topKmers": [
+          [
+            "AGAA",
+            101
+          ],
+          [
+            "GAAA",
+            88
+          ],
+          [
+            "AAAG",
+            81
+          ],
+          [
+            "AAAA",
+            80
+          ],
+          [
+            "AAGA",
+            76
+          ],
+          [
+            "TGAA",
+            70
+          ],
+          [
+            "CAGA",
+            63
+          ],
+          [
+            "AAAT",
+            63
+          ],
+          [
+            "CAAA",
+            59
+          ],
+          [
+            "GAAG",
+            57
+          ],
+          [
+            "CTGA",
+            53
+          ],
+          [
+            "AATG",
+            53
+          ],
+          [
+            "AACA",
+            50
+          ],
+          [
+            "GGAA",
+            49
+          ],
+          [
+            "AGAG",
+            47
+          ],
+          [
+            "GAAT",
+            47
+          ],
+          [
+            "TCTG",
+            46
+          ],
+          [
+            "AATA",
+            46
+          ],
+          [
+            "ACAG",
+            45
+          ],
+          [
+            "AGGA",
+            45
+          ]
+        ],
+        "uniqueRatio": "0.0437"
+      },
+      "k6": {
+        "k": 6,
+        "totalKmers": 2456,
+        "topKmers": [
+          [
+            "AAGAAA",
+            17
+          ],
+          [
+            "AGAAAA",
+            17
+          ],
+          [
+            "CAGAAA",
+            15
+          ],
+          [
+            "AAAGAA",
+            15
+          ],
+          [
+            "AGAAAG",
+            14
+          ],
+          [
+            "TGAAGA",
+            14
+          ],
+          [
+            "GAAGAA",
+            13
+          ],
+          [
+            "GAAAAT",
+            11
+          ],
+          [
+            "AAGAAT",
+            11
+          ],
+          [
+            "GAAGAG",
+            11
+          ],
+          [
+            "AGGAAA",
+            11
+          ],
+          [
+            "CCAGAA",
+            10
+          ],
+          [
+            "CAAAAG",
+            10
+          ],
+          [
+            "AAAAGA",
+            10
+          ],
+          [
+            "AACAAA",
+            10
+          ],
+          [
+            "TGGAAG",
+            10
+          ],
+          [
+            "ACAGAA",
+            9
+          ],
+          [
+            "GAAAGA",
+            9
+          ],
+          [
+            "AAGGAA",
+            9
+          ],
+          [
+            "CTGAAA",
+            9
+          ]
+        ],
+        "uniqueRatio": "0.4309"
+      }
+    },
+    "codonUsage": {
+      "codonCounts": {
+        "GCT": 22,
+        "GAG": 25,
+        "ACT": 21,
+        "TCC": 12,
+        "TGG": 47,
+        "ACG": 4,
+        "GGG": 15,
+        "GAC": 8,
+        "AGG": 51,
+        "CTG": 86,
+        "GGT": 10,
+        "TTC": 25,
+        "TCA": 38,
+        "GAT": 6,
+        "AAC": 45,
+        "GCC": 20,
+        "CCT": 12,
+        "GCG": 5,
+        "CTC": 27,
+        "CCC": 20,
+        "TCT": 19,
+        "AAA": 95,
+        "GTT": 24,
+        "CAT": 31,
+        "AGA": 60,
+        "AAG": 81,
+        "ATT": 24,
+        "TAT": 16,
+        "TTG": 41,
+        "TAC": 19,
+        "ATG": 75,
+        "TTA": 34,
+        "CTA": 40,
+        "TGC": 20,
+        "TAG": 35,
+        "AGT": 32,
+        "GTC": 21,
+        "CCA": 37,
+        "TGA": 36,
+        "CAA": 49,
+        "GTG": 43,
+        "ACC": 29,
+        "ACA": 42,
+        "TTT": 24,
+        "GCA": 31,
+        "AAT": 38,
+        "GGC": 15,
+        "CTT": 32,
+        "CAC": 19,
+        "GTA": 37,
+        "ATA": 57,
+        "TAA": 34,
+        "GGA": 19,
+        "CGA": 2,
+        "AGC": 39,
+        "CAG": 49,
+        "ATC": 36,
+        "GAA": 32,
+        "CCG": 4,
+        "CGT": 3,
+        "TGT": 19,
+        "CGG": 5,
+        "TCG": 3,
+        "CGC": 1
+      },
+      "aminoAcidCounts": {
+        "A": 78,
+        "E": 57,
+        "T": 96,
+        "S": 143,
+        "W": 47,
+        "G": 59,
+        "D": 14,
+        "R": 122,
+        "L": 260,
+        "F": 49,
+        "N": 83,
+        "P": 73,
+        "K": 176,
+        "V": 125,
+        "H": 50,
+        "I": 117,
+        "Y": 35,
+        "M": 75,
+        "C": 39,
+        "*": 105,
+        "Q": 98
+      },
+      "rscu": {
+        "TTT": "0.980",
+        "TTC": "1.020",
+        "TTA": "0.785",
+        "TTG": "0.946",
+        "CTT": "0.738",
+        "CTC": "0.623",
+        "CTA": "0.923",
+        "CTG": "1.985",
+        "TCT": "0.797",
+        "TCC": "0.503",
+        "TCA": "1.594",
+        "TCG": "0.126",
+        "AGT": "1.343",
+        "AGC": "1.636",
+        "TAT": "0.914",
+        "TAC": "1.086",
+        "TAA": "0.971",
+        "TAG": "1.000",
+        "TGA": "1.029",
+        "TGT": "0.974",
+        "TGC": "1.026",
+        "TGG": "1.000",
+        "CCT": "0.658",
+        "CCC": "1.096",
+        "CCA": "2.027",
+        "CCG": "0.219",
+        "CAT": "1.240",
+        "CAC": "0.760",
+        "CAA": "1.000",
+        "CAG": "1.000",
+        "CGT": "0.148",
+        "CGC": "0.049",
+        "CGA": "0.098",
+        "CGG": "0.246",
+        "AGA": "2.951",
+        "AGG": "2.508",
+        "ATT": "0.615",
+        "ATC": "0.923",
+        "ATA": "1.462",
+        "ATG": "1.000",
+        "ACT": "0.875",
+        "ACC": "1.208",
+        "ACA": "1.750",
+        "ACG": "0.167",
+        "AAT": "0.916",
+        "AAC": "1.084",
+        "AAA": "1.080",
+        "AAG": "0.920",
+        "GTT": "0.768",
+        "GTC": "0.672",
+        "GTA": "1.184",
+        "GTG": "1.376",
+        "GCT": "1.128",
+        "GCC": "1.026",
+        "GCA": "1.590",
+        "GCG": "0.256",
+        "GAT": "0.857",
+        "GAC": "1.143",
+        "GAA": "1.123",
+        "GAG": "0.877",
+        "GGT": "0.678",
+        "GGC": "1.017",
+        "GGA": "1.288",
+        "GGG": "1.017"
+      },
+      "totalCodons": 1901
+    },
+    "regulatoryMotifs": [
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 42,
+        "context": "GGGTTTCTCAGATAACTGGGCCCC"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 311,
+        "context": "ATGTAAGAATGATATAACCAAAAG"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 622,
+        "context": "CAAAGCAGCGGATACAACCTCAAA"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 677,
+        "context": "TTCTTCTGAAGATACCGTTAATAA"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 1028,
+        "context": "TGAATTCTGTAATAAAAGCAAACAGC"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 1100,
+        "context": "AACATGTAATGATAGGCGGACTCC"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 1208,
+        "context": "GAATCCTAGAGATACTGAAGATGT"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 1228,
+        "context": "ATGTTCCTTGGATAACACTAAATA"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 1585,
+        "context": "CTGAGCCACAGATAATACAAGAGC"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 1610,
+        "context": "TCCCCTCACAAATAAATTAAAGCGTA"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 1705,
+        "context": "CTCCTGAAATGATAAATCAGGGAA"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 1775,
+        "context": "TGGTCATGAGAATAAAACAAAAGGTG"
+      },
+      {
+        "motif": "CCAAT",
+        "description": "CCAAT Box",
+        "position": 1820,
+        "context": "AAATCCTAACCCAATAGAATCACTC"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 1821,
+        "context": "AATCCTAACCCAATAGAATCACTC"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 1888,
+        "context": "GCAGTATAAGCAATATGGAACTCG"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 1915,
+        "context": "TAAATATCCACAATTCAAAAGCAC"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 2036,
+        "context": "ATTGCAAATTGATAGTTGTTCTAG"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 2059,
+        "context": "GCAGTGAAGAGATAAAGAAAAAAA"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 2195,
+        "context": "ACATGACAGCGATACTTTCCCAGA"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 2278,
+        "context": "AAGAATTTGTCAATCCTAGCCTTC"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 2507,
+        "context": "AACAGAACCAAATAAATGTGTGAGTC"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 2573,
+        "context": "TTGTTCCAAAGATAATAGAAATGA"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 2918,
+        "context": "TGGTCAGAAAGATAAGCCAGTTGA"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 2930,
+        "context": "TAAGCCAGTTGATAATGCCAAATG"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 3017,
+        "context": "CATTACTCCAAATAAACATGGACTTT"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 3132,
+        "context": "GAGGAACATTCAATGTCACCTGAA"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 3186,
+        "context": "ACAGTGAGCACAATTAGCCGTAAT"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 3238,
+        "context": "CCAGCTCAAGCAATATTAATGAAG"
+      },
+      {
+        "motif": "TATAAA",
+        "description": "TATA Box (Promoter)",
+        "position": 3392,
+        "context": "ACCTGAGGTCTATAAACAAAGTCTTC"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 3433,
+        "context": "AGCATCCTGAAATAAAAAAGCAAGAA"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 3503,
+        "context": "TCTGATTTCAGATAACTTAGAACA"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 3586,
+        "context": "ATGATGGTGAAATAAAGGAAGATACT"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 3596,
+        "context": "AATAAAGGAAGATACTAGTTTTGC"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 3817,
+        "context": "GTAAAGTAAACAATATACCTTCTC"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 4304,
+        "context": "TCAGCAGAGGGATACCATGCAACA"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 4324,
+        "context": "AACATAACCTGATAAAGCTCCAGC"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 4556,
+        "context": "GGTGTCTGCAGATAGTTCTACCAG"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 4574,
+        "context": "TACCAGTAAAAATAAAGAACCAGGAG"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 4628,
+        "context": "ATCATTAGATGATAGGTGGTACAT"
+      },
+      {
+        "motif": "CCAAT",
+        "description": "CCAAT Box",
+        "position": 4921,
+        "context": "TGAAAGTTCCCCAATTGAAAGTTGC"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 4922,
+        "context": "GAAAGTTCCCCAATTGAAAGTTGC"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 4973,
+        "context": "TCATACTACTGATACTGCTGGGTA"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 4992,
+        "context": "GGGTATAATGCAATGGAAGAAAGT"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 5335,
+        "context": "GAGATGTGGTCAATGGAAGAAACC"
+      },
+      {
+        "motif": "CCAAT",
+        "description": "CCAAT Box",
+        "position": 5528,
+        "context": "AGGTGTCCACCCAATTGTGGTTGTG"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 5529,
+        "context": "GGTGTCCACCCAATTGTGGTTGTG"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 5566,
+        "context": "GGACAGAGGACAATGGCTTCCATG"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 5580,
+        "context": "GGCTTCCATGCAATTGGGCAGATG"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 5674,
+        "context": "ACACCTACCTGATACCCCAGATCC"
+      }
+    ],
+    "orfs": [
+      {
+        "frame": 3,
+        "start": 113,
+        "end": 5705,
+        "length": 5592,
+        "proteinLength": 1864,
+        "sequence": "ATGGATTTATCTGCTCTTCGCGTTGAAGAAGTACAAAATGTCATTAATGCTATGCAGAAAATCTTAGAGTGTCCCATCTGTCTGGAGTTGATCAAGGAACCTGTCTCCACAAAGTGTGACCACATATTTTGCAAATTTTGCATGCTGAAACTTCTCAACCAGAAGAAAGGGCCTTCACAGTGTCCTTTATGTAAGAATGATATAACCAAAAGGAGCCTACAAGAAAGTACGAGATTTAGTCAACTTGTTGAAGAGCTATTGAAAATCATTTGTGCTTTTCAGCTTGACACAGGTTTGGAGTATGCAAACAGCTATAATTTTGCAAAAAAGGAAAATAACTCTCCTGAACATCTAAAAGATGAAGTTTCTATCATCCAAAGTATGGGCTACAGAAACCGTGCCAAAAGACTTCTACAGAGTGAACCCGAAAATCCTTCCTTGCAGGAAACCAGTCTCAGTGTCCAACTCTCTAACCTTGGAACTGTGAGAACTCTGAGGACAAAGCAGCGGATACAACCTCAAAAGACGTCTGTCTACATTGAATTGGGATCTGATTCTTCTGAAGATACCGTTAATAAGGCAACTTATTGCAGTGTGGGAGATCAAGAATTGTTACAAATCACCCCTCAAGGAACCAGGGATGAAATCAGTTTGGATTCTGCAAAAAAGGCTGCTTGTGAATTTTCTGAGACGGATGTAACAAATACTGAACATCATCAACCCAGTAATAATGATTTGAACACCACTGAGAAGCGTGCAGCTGAGAGGCATCCAGAAAAGTATCAGGGTAGTTCTGTTTCAAACTTGCATGTGGAGCCATGTGGCACAAATACTCATGCCAGCTCATTACAGCATGAGAACAGCAGTTTATTACTCACTAAAGACAGAATGAATGTAGAAAAGGCTGAATTCTGTAATAAAAGCAAACAGCCTGGCTTAGCAAGGAGCCAACATAACAGATGGGCTGGAAGTAAGGAAACATGTAATGATAGGCGGACTCCCAGCACAGAAAAAAAGGTAGATCTGAATGCTGATCCCCTGTGTGAGAGAAAAGAATGGAATAAGCAGAAACTGCCATGCTCAGAGAATCCTAGAGATACTGAAGATGTTCCTTGGATAACACTAAATAGCAGCATTCAGAAAGTTAATGAGTGGTTTTCCAGAAGTGATGAACTGTTAGGTTCTGATGACTCACATGATGGGGAGTCTGAATCAAATGCCAAAGTAGCTGATGTATTGGACGTTCTAAATGAGGTAGATGAATATTCTGGTTCTTCAGAGAAAATAGACTTACTGGCCAGTGATCCTCATGAGGCTTTAATATGTAAAAGTGAAAGAGTTCACTCCAAATCAGTAGAGAGTAATATTGAAGACAAAATATTTGGGAAAACCTATCGGAAGAAGGCAAGCCTCCCCAACTTAAGCCATGTAACTGAAAATCTAATTATAGGAGCATTTGTTACTGAGCCACAGATAATACAAGAGCGTCCCCTCACAAATAAATTAAAGCGTAAAAGGAGACCTACATCAGGCCTTCATCCTGAGGATTTTATCAAGAAAGCAGATTTGGCAGTTCAAAAGACTCCTGAAATGATAAATCAGGGAACTAACCAAACGGAGCAGAATGGTCAAGTGATGAATATTACTAATAGTGGTCATGAGAATAAAACAAAAGGTGATTCTATTCAGAATGAGAAAAATCCTAACCCAATAGAATCACTCGAAAAAGAATCTGCTTTCAAAACGAAAGCTGAACCTATAAGCAGCAGTATAAGCAATATGGAACTCGAATTAAATATCCACAATTCAAAAGCACCTAAAAAGAATAGGCTGAGGAGGAAGTCTTCTACCAGGCATATTCATGCGCTTGAACTAGTAGTCAGTAGAAATCTAAGCCCACCTAATTGTACTGAATTGCAAATTGATAGTTGTTCTAGCAGTGAAGAGATAAAGAAAAAAAAGTACAACCAAATGCCAGTCAGGCACAGCAGAAACCTACAACTCATGGAAGGTAAAGAACCTGCAACTGGAGCCAAGAAGAGTAACAAGCCAAATGAACAGACAAGTAAAAGACATGACAGCGATACTTTCCCAGAGCTGAAGTTAACAAATGCACCTGGTTCTTTTACTAAGTGTTCAAATACCAGTGAACTTAAAGAATTTGTCAATCCTAGCCTTCCAAGAGAAGAAAAAGAAGAGAAACTAGAAACAGTTAAAGTGTCTAATAATGCTGAAGACCCCAAAGATCTCATGTTAAGTGGAGAAAGGGTTTTGCAAACTGAAAGATCTGTAGAGAGTAGCAGTATTTCATTGGTACCTGGTACTGATTATGGCACTCAGGAAAGTATCTCGTTACTGGAAGTTAGCACTCTAGGGAAGGCAAAAACAGAACCAAATAAATGTGTGAGTCAGTGTGCAGCATTTGAAAACCCCAAGGGACTAATTCATGGTTGTTCCAAAGATAATAGAAATGACACAGAAGGCTTTAAGTATCCATTGGGACATGAAGTTAACCACAGTCGGGAAACAAGCATAGAAATGGAAGAAAGTGAACTTGATGCTCAGTATTTGCAGAATACATTCAAGGTTTCAAAGCGCCAGTCATTTGCTCCGTTTTCAAATCCAGGAAATGCAGAAGAGGAATGTGCAACATTCTCTGCCCACTCTGGGTCCTTAAAGAAACAAAGTCCAAAAGTCACTTTTGAATGTGAACAAAAGGAAGAAAATCAAGGAAAGAATGAGTCTAATATCAAGCCTGTACAGACAGTTAATATCACTGCAGGCTTTCCTGTGGTTGGTCAGAAAGATAAGCCAGTTGATAATGCCAAATGTAGTATCAAAGGAGGCTCTAGGTTTTGTCTATCATCTCAGTTCAGAGGCAACGAAACTGGACTCATTACTCCAAATAAACATGGACTTTTACAAAACCCATATCGTATACCACCACTTTTTCCCATCAAGTCATTTGTTAAAACTAAATGTAAGAAAAATCTGCTAGAGGAAAACTTTGAGGAACATTCAATGTCACCTGAAAGAGAAATGGGAAATGAGAACATTCCAAGTACAGTGAGCACAATTAGCCGTAATAACATTAGAGAAAATGTTTTTAAAGAAGCCAGCTCAAGCAATATTAATGAAGTAGGTTCCAGTACTAATGAAGTGGGCTCCAGTATTAATGAAATAGGTTCCAGTGATGAAAACATTCAAGCAGAACTAGGTAGAAACAGAGGGCCAAAATTGAATGCTATGCTTAGATTAGGGGTTTTGCAACCTGAGGTCTATAAACAAAGTCTTCCTGGAAGTAATTGTAAGCATCCTGAAATAAAAAAGCAAGAATATGAAGAAGTAGTTCAGACTGTTAATACAGATTTCTCTCCATATCTGATTTCAGATAACTTAGAACAGCCTATGGGAAGTAGTCATGCATCTCAGGTTTGTTCTGAGACACCTGATGACCTGTTAGATGATGGTGAAATAAAGGAAGATACTAGTTTTGCTGAAAATGACATTAAGGAAAGTTCTGCTGTTTTTAGCAAAAGCGTCCAGAAAGGAGAGCTTAGCAGGAGTCCTAGCCCTTTCACCCATACACATTTGGCTCAGGGTTACCGAAGAGGGGCCAAGAAATTAGAGTCCTCAGAAGAGAACTTATCTAGTGAGGATGAAGAGCTTCCCTGCTTCCAACACTTGTTATTTGGTAAAGTAAACAATATACCTTCTCAGTCTACTAGGCATAGCACCGTTGCTACCGAGTGTCTGTCTAAGAACACAGAGGAGAATTTATTATCATTGAAGAATAGCTTAAATGACTGCAGTAACCAGGTAATATTGGCAAAGGCATCTCAGGAACATCACCTTAGTGAGGAAACAAAATGTTCTGCTAGCTTGTTTTCTTCACAGTGCAGTGAATTGGAAGACTTGACTGCAAATACAAACACCCAGGATCCTTTCTTGATTGGTTCTTCCAAACAAATGAGGCATCAGTCTGAAAGCCAGGGAGTTGGTCTGAGTGACAAGGAATTGGTTTCAGATGATGAAGAAAGAGGAACGGGCTTGGAAGAAAATAATCAAGAAGAGCAAAGCATGGATTCAAACTTAGGTGAAGCAGCATCTGGGTGTGAGAGTGAAACAAGCGTCTCTGAAGACTGCTCAGGGCTATCCTCTCAGAGTGACATTTTAACCACTCAGCAGAGGGATACCATGCAACATAACCTGATAAAGCTCCAGCAGGAAATGGCTGAACTAGAAGCTGTGTTAGAACAGCATGGGAGCCAGCCTTCTAACAGCTACCCTTCCATCATAAGTGACTCTTCTGCCCTTGAGGACCTGCGAAATCCAGAACAAAGCACATCAGAAAAAGCAGTATTAACTTCACAGAAAAGTAGTGAATACCCTATAAGCCAGAATCCAGAAGGCCTTTCTGCTGACAAGTTTGAGGTGTCTGCAGATAGTTCTACCAGTAAAAATAAAGAACCAGGAGTGGAAAGGTCATCCCCTTCTAAATGCCCATCATTAGATGATAGGTGGTACATGCACAGTTGCTCTGGGAGTCTTCAGAATAGAAACTACCCATCTCAAGAGGAGCTCATTAAGGTTGTTGATGTGGAGGAGCAACAGCTGGAAGAGTCTGGGCCACACGATTTGACGGAAACATCTTACTTGCCAAGGCAAGATCTAGAGGGAACCCCTTACCTGGAATCTGGAATCAGCCTCTTCTCTGATGACCCTGAATCTGATCCTTCTGAAGACAGAGCCCCAGAGTCAGCTCGTGTTGGCAACATACCATCTTCAACCTCTGCATTGAAAGTTCCCCAATTGAAAGTTGCAGAATCTGCCCAGAGTCCAGCTGCTGCTCATACTACTGATACTGCTGGGTATAATGCAATGGAAGAAAGTGTGAGCAGGGAGAAGCCAGAATTGACAGCTTCAACAGAAAGGGTCAACAAAAGAATGTCCATGGTGGTGTCTGGCCTGACCCCAGAAGAATTTATGCTCGTGTACAAGTTTGCCAGAAAACACCACATCACTTTAACTAATCTAATTACTGAAGAGACTACTCATGTTGTTATGAAAACAGATGCTGAGTTTGTGTGTGAACGGACACTGAAATATTTTCTAGGAATTGCGGGAGGAAAATGGGTAGTTAGCTATTTCTGGGTGACCCAGTCTATTAAAGAAAGAAAAATGCTGAATGAGCATGATTTTGAAGTCAGAGGAGATGTGGTCAATGGAAGAAACCACCAAGGTCCAAAGCGAGCAAGAGAATCCCAGGACAGAAAGATCTTCAGGGGGCTAGAAATCTGTTGCTATGGGCCCTTCACCAACATGCCCACAGATCAACTGGAATGGATGGTACAGCTGTGTGGTGCTTCTGTGGTGAAGGAGCTTTCATCATTCACCCTTGGCACAGGTGTCCACCCAATTGTGGTTGTGCAGCCAGATGCCTGGACAGAGGACAATGGCTTCCATGCAATTGGGCAGATGTGTGAGGCACCTGTGGTGACCCGAGAGTGGGTGTTGGACAGTGTAGCACTCTACCAGTGCCAGGAGCTGGACACCTACCTGATACCCCAGATCCCCCACAGCCACTACTGA"
+      },
+      {
+        "frame": 1,
+        "start": 2850,
+        "end": 3111,
+        "length": 261,
+        "proteinLength": 87,
+        "sequence": "ATGAGTCTAATATCAAGCCTGTACAGACAGTTAATATCACTGCAGGCTTTCCTGTGGTTGGTCAGAAAGATAAGCCAGTTGATAATGCCAAATGTAGTATCAAAGGAGGCTCTAGGTTTTGTCTATCATCTCAGTTCAGAGGCAACGAAACTGGACTCATTACTCCAAATAAACATGGACTTTTACAAAACCCATATCGTATACCACCACTTTTTCCCATCAAGTCATTTGTTAAAACTAAATGTAAGAAAAATCTGCTAG"
+      },
+      {
+        "frame": 2,
+        "start": 5455,
+        "end": 5599,
+        "length": 144,
+        "proteinLength": 48,
+        "sequence": "ATGGATGGTACAGCTGTGTGGTGCTTCTGTGGTGAAGGAGCTTTCATCATTCACCCTTGGCACAGGTGTCCACCCAATTGTGGTTGTGCAGCCAGATGCCTGGACAGAGGACAATGGCTTCCATGCAATTGGGCAGATGTGTGA"
+      },
+      {
+        "frame": 1,
+        "start": 471,
+        "end": 600,
+        "length": 129,
+        "proteinLength": 43,
+        "sequence": "ATGAAGTTTCTATCATCCAAAGTATGGGCTACAGAAACCGTGCCAAAAGACTTCTACAGAGTGAACCCGAAAATCCTTCCTTGCAGGAAACCAGTCTCAGTGTCCAACTCTCTAACCTTGGAACTGTGA"
+      },
+      {
+        "frame": 1,
+        "start": 4626,
+        "end": 4755,
+        "length": 129,
+        "proteinLength": 43,
+        "sequence": "ATGATAGGTGGTACATGCACAGTTGCTCTGGGAGTCTTCAGAATAGAAACTACCCATCTCAAGAGGAGCTCATTAAGGTTGTTGATGTGGAGGAGCAACAGCTGGAAGAGTCTGGGCCACACGATTTGA"
+      },
+      {
+        "frame": 1,
+        "start": 3615,
+        "end": 3741,
+        "length": 126,
+        "proteinLength": 42,
+        "sequence": "ATGACATTAAGGAAAGTTCTGCTGTTTTTAGCAAAAGCGTCCAGAAAGGAGAGCTTAGCAGGAGTCCTAGCCCTTTCACCCATACACATTTGGCTCAGGGTTACCGAAGAGGGGCCAAGAAATTAG"
+      },
+      {
+        "frame": 1,
+        "start": 2670,
+        "end": 2790,
+        "length": 120,
+        "proteinLength": 40,
+        "sequence": "ATGCTCAGTATTTGCAGAATACATTCAAGGTTTCAAAGCGCCAGTCATTTGCTCCGTTTTCAAATCCAGGAAATGCAGAAGAGGAATGTGCAACATTCTCTGCCCACTCTGGGTCCTTAA"
+      },
+      {
+        "frame": 1,
+        "start": 5301,
+        "end": 5406,
+        "length": 105,
+        "proteinLength": 35,
+        "sequence": "ATGAGCATGATTTTGAAGTCAGAGGAGATGTGGTCAATGGAAGAAACCACCAAGGTCCAAAGCGAGCAAGAGAATCCCAGGACAGAAAGATCTTCAGGGGGCTAG"
+      }
+    ],
+    "cpgIslands": [],
+    "repeats": [
+      {
+        "pattern": "AAGAAA",
+        "length": 6,
+        "occurrences": 17,
+        "positions": [
+          108,
+          275,
+          333,
+          1667,
+          2063,
+          2298,
+          2655,
+          2789,
+          2832,
+          3095
+        ]
+      },
+      {
+        "pattern": "AGAAAA",
+        "length": 6,
+        "occurrences": 17,
+        "positions": [
+          168,
+          886,
+          1009,
+          1120,
+          1160,
+          1392,
+          1806,
+          2064,
+          2299,
+          2833
+        ]
+      },
+      {
+        "pattern": "CAGAAA",
+        "length": 6,
+        "occurrences": 15,
+        "positions": [
+          104,
+          167,
+          502,
+          885,
+          1119,
+          1178,
+          1250,
+          2101,
+          2912,
+          3656
+        ]
+      },
+      {
+        "pattern": "AAAGAA",
+        "length": 6,
+        "occurrences": 15,
+        "positions": [
+          107,
+          1163,
+          1838,
+          1933,
+          2062,
+          2126,
+          2267,
+          2303,
+          2788,
+          2845
+        ]
+      },
+      {
+        "pattern": "AGAAAG",
+        "length": 6,
+        "occurrences": 14,
+        "positions": [
+          105,
+          276,
+          334,
+          1251,
+          1668,
+          2374,
+          2656,
+          2913,
+          3657,
+          4147
+        ]
+      },
+      {
+        "pattern": "TGAAGA",
+        "length": 6,
+        "occurrences": 14,
+        "positions": [
+          136,
+          361,
+          673,
+          1213,
+          1480,
+          2053,
+          2344,
+          3451,
+          3772,
+          3900
+        ]
+      },
+      {
+        "pattern": "GAAGAA",
+        "length": 6,
+        "occurrences": 13,
+        "positions": [
+          137,
+          274,
+          1510,
+          2297,
+          2654,
+          2831,
+          3452,
+          3901,
+          4145,
+          4166
+        ]
+      },
+      {
+        "pattern": "GAAAAT",
+        "length": 6,
+        "occurrences": 11,
+        "positions": [
+          169,
+          373,
+          443,
+          539,
+          1393,
+          1547,
+          2834,
+          3209,
+          3611,
+          4169
+        ]
+      },
+      {
+        "pattern": "AAGAAT",
+        "length": 6,
+        "occurrences": 11,
+        "positions": [
+          305,
+          717,
+          1164,
+          1839,
+          1934,
+          2268,
+          2846,
+          3444,
+          3902,
+          5056
+        ]
+      },
+      {
+        "pattern": "GAAGAG",
+        "length": 6,
+        "occurrences": 11,
+        "positions": [
+          362,
+          2054,
+          2149,
+          2306,
+          2747,
+          3720,
+          3749,
+          3773,
+          4181,
+          4730
+        ]
+      },
+      {
+        "pattern": "AGGAAA",
+        "length": 6,
+        "occurrences": 11,
+        "positions": [
+          441,
+          555,
+          1086,
+          2451,
+          2737,
+          2842,
+          3111,
+          3624,
+          3972,
+          4338
+        ]
+      },
+      {
+        "pattern": "CCAGAA",
+        "length": 6,
+        "occurrences": 10,
+        "positions": [
+          271,
+          884,
+          1272,
+          3655,
+          4445,
+          4510,
+          4517,
+          5021,
+          5087,
+          5118
+        ]
+      },
+      {
+        "pattern": "CAAAAG",
+        "length": 6,
+        "occurrences": 10,
+        "positions": [
+          319,
+          514,
+          632,
+          1688,
+          1782,
+          1920,
+          2802,
+          2825,
+          3646,
+          5053
+        ]
+      },
+      {
+        "pattern": "AAAAGA",
+        "length": 6,
+        "occurrences": 10,
+        "positions": [
+          466,
+          515,
+          633,
+          1162,
+          1689,
+          1837,
+          1932,
+          2180,
+          2302,
+          5054
+        ]
+      },
+      {
+        "pattern": "AACAAA",
+        "length": 6,
+        "occurrences": 10,
+        "positions": [
+          811,
+          1780,
+          2218,
+          2793,
+          2823,
+          3396,
+          3976,
+          4077,
+          4449,
+          5051
+        ]
+      },
+      {
+        "pattern": "TGGAAG",
+        "length": 6,
+        "occurrences": 10,
+        "positions": [
+          1078,
+          2118,
+          2469,
+          2652,
+          3409,
+          4020,
+          4164,
+          4728,
+          4995,
+          5338
+        ]
+      },
+      {
+        "pattern": "GAAGAAA",
+        "length": 7,
+        "occurrences": 8,
+        "positions": [
+          274,
+          2297,
+          2654,
+          2831,
+          4145,
+          4166,
+          4997,
+          5340
+        ]
+      },
+      {
+        "pattern": "ACAGAA",
+        "length": 6,
+        "occurrences": 9,
+        "positions": [
+          103,
+          501,
+          996,
+          1118,
+          2498,
+          2588,
+          4483,
+          5039,
+          5382
+        ]
+      },
+      {
+        "pattern": "GAAAGA",
+        "length": 6,
+        "occurrences": 9,
+        "positions": [
+          106,
+          1445,
+          2393,
+          2844,
+          2914,
+          3143,
+          4148,
+          5285,
+          5385
+        ]
+      },
+      {
+        "pattern": "AAGGAA",
+        "length": 6,
+        "occurrences": 9,
+        "positions": [
+          206,
+          440,
+          741,
+          1085,
+          2828,
+          2841,
+          3590,
+          3623,
+          4124
+        ]
+      }
+    ],
+    "entropy": {
+      "windowSize": 100,
+      "averageEntropy": "1.9368",
+      "maxEntropy": 2,
+      "windows": [
+        {
+          "position": 0,
+          "entropy": "1.9591",
+          "complexity": "high"
+        },
+        {
+          "position": 50,
+          "entropy": "1.9994",
+          "complexity": "high"
+        },
+        {
+          "position": 100,
+          "entropy": "1.9527",
+          "complexity": "high"
+        },
+        {
+          "position": 150,
+          "entropy": "1.9645",
+          "complexity": "high"
+        },
+        {
+          "position": 200,
+          "entropy": "1.9748",
+          "complexity": "high"
+        },
+        {
+          "position": 250,
+          "entropy": "1.9445",
+          "complexity": "high"
+        },
+        {
+          "position": 300,
+          "entropy": "1.8988",
+          "complexity": "high"
+        },
+        {
+          "position": 350,
+          "entropy": "1.9014",
+          "complexity": "high"
+        },
+        {
+          "position": 400,
+          "entropy": "1.9150",
+          "complexity": "high"
+        },
+        {
+          "position": 450,
+          "entropy": "1.9413",
+          "complexity": "high"
+        },
+        {
+          "position": 500,
+          "entropy": "1.9661",
+          "complexity": "high"
+        },
+        {
+          "position": 550,
+          "entropy": "1.9795",
+          "complexity": "high"
+        },
+        {
+          "position": 600,
+          "entropy": "1.9664",
+          "complexity": "high"
+        },
+        {
+          "position": 650,
+          "entropy": "1.9602",
+          "complexity": "high"
+        },
+        {
+          "position": 700,
+          "entropy": "1.9667",
+          "complexity": "high"
+        },
+        {
+          "position": 750,
+          "entropy": "1.9314",
+          "complexity": "high"
+        },
+        {
+          "position": 800,
+          "entropy": "1.9272",
+          "complexity": "high"
+        },
+        {
+          "position": 850,
+          "entropy": "1.9825",
+          "complexity": "high"
+        },
+        {
+          "position": 900,
+          "entropy": "1.9788",
+          "complexity": "high"
+        },
+        {
+          "position": 950,
+          "entropy": "1.9300",
+          "complexity": "high"
+        },
+        {
+          "position": 1000,
+          "entropy": "1.8780",
+          "complexity": "high"
+        },
+        {
+          "position": 1050,
+          "entropy": "1.9081",
+          "complexity": "high"
+        },
+        {
+          "position": 1100,
+          "entropy": "1.9187",
+          "complexity": "high"
+        },
+        {
+          "position": 1150,
+          "entropy": "1.9333",
+          "complexity": "high"
+        },
+        {
+          "position": 1200,
+          "entropy": "1.9337",
+          "complexity": "high"
+        },
+        {
+          "position": 1250,
+          "entropy": "1.9344",
+          "complexity": "high"
+        },
+        {
+          "position": 1300,
+          "entropy": "1.9284",
+          "complexity": "high"
+        },
+        {
+          "position": 1350,
+          "entropy": "1.9257",
+          "complexity": "high"
+        },
+        {
+          "position": 1400,
+          "entropy": "1.9184",
+          "complexity": "high"
+        },
+        {
+          "position": 1450,
+          "entropy": "1.9212",
+          "complexity": "high"
+        },
+        {
+          "position": 1500,
+          "entropy": "1.9391",
+          "complexity": "high"
+        },
+        {
+          "position": 1550,
+          "entropy": "1.9333",
+          "complexity": "high"
+        },
+        {
+          "position": 1600,
+          "entropy": "1.9470",
+          "complexity": "high"
+        },
+        {
+          "position": 1650,
+          "entropy": "1.9211",
+          "complexity": "high"
+        },
+        {
+          "position": 1700,
+          "entropy": "1.8589",
+          "complexity": "high"
+        },
+        {
+          "position": 1750,
+          "entropy": "1.8461",
+          "complexity": "high"
+        },
+        {
+          "position": 1800,
+          "entropy": "1.8488",
+          "complexity": "high"
+        },
+        {
+          "position": 1850,
+          "entropy": "1.8505",
+          "complexity": "high"
+        },
+        {
+          "position": 1900,
+          "entropy": "1.9377",
+          "complexity": "high"
+        },
+        {
+          "position": 1950,
+          "entropy": "1.9645",
+          "complexity": "high"
+        },
+        {
+          "position": 2000,
+          "entropy": "1.8968",
+          "complexity": "high"
+        },
+        {
+          "position": 2050,
+          "entropy": "1.8190",
+          "complexity": "high"
+        },
+        {
+          "position": 2100,
+          "entropy": "1.8190",
+          "complexity": "high"
+        },
+        {
+          "position": 2150,
+          "entropy": "1.9279",
+          "complexity": "high"
+        },
+        {
+          "position": 2200,
+          "entropy": "1.9448",
+          "complexity": "high"
+        },
+        {
+          "position": 2250,
+          "entropy": "1.8440",
+          "complexity": "high"
+        },
+        {
+          "position": 2300,
+          "entropy": "1.8487",
+          "complexity": "high"
+        },
+        {
+          "position": 2350,
+          "entropy": "1.9620",
+          "complexity": "high"
+        },
+        {
+          "position": 2400,
+          "entropy": "1.9710",
+          "complexity": "high"
+        },
+        {
+          "position": 2450,
+          "entropy": "1.9404",
+          "complexity": "high"
+        },
+        {
+          "position": 2500,
+          "entropy": "1.9282",
+          "complexity": "high"
+        },
+        {
+          "position": 2550,
+          "entropy": "1.9211",
+          "complexity": "high"
+        },
+        {
+          "position": 2600,
+          "entropy": "1.9150",
+          "complexity": "high"
+        },
+        {
+          "position": 2650,
+          "entropy": "1.9573",
+          "complexity": "high"
+        },
+        {
+          "position": 2700,
+          "entropy": "1.9823",
+          "complexity": "high"
+        },
+        {
+          "position": 2750,
+          "entropy": "1.9099",
+          "complexity": "high"
+        },
+        {
+          "position": 2800,
+          "entropy": "1.8998",
+          "complexity": "high"
+        },
+        {
+          "position": 2850,
+          "entropy": "1.9591",
+          "complexity": "high"
+        },
+        {
+          "position": 2900,
+          "entropy": "1.9684",
+          "complexity": "high"
+        },
+        {
+          "position": 2950,
+          "entropy": "1.9601",
+          "complexity": "high"
+        },
+        {
+          "position": 3000,
+          "entropy": "1.8586",
+          "complexity": "high"
+        },
+        {
+          "position": 3050,
+          "entropy": "1.9056",
+          "complexity": "high"
+        },
+        {
+          "position": 3100,
+          "entropy": "1.9038",
+          "complexity": "high"
+        },
+        {
+          "position": 3150,
+          "entropy": "1.8612",
+          "complexity": "high"
+        },
+        {
+          "position": 3200,
+          "entropy": "1.8839",
+          "complexity": "high"
+        },
+        {
+          "position": 3250,
+          "entropy": "1.9132",
+          "complexity": "high"
+        },
+        {
+          "position": 3300,
+          "entropy": "1.9355",
+          "complexity": "high"
+        },
+        {
+          "position": 3350,
+          "entropy": "1.9185",
+          "complexity": "high"
+        },
+        {
+          "position": 3400,
+          "entropy": "1.8967",
+          "complexity": "high"
+        },
+        {
+          "position": 3450,
+          "entropy": "1.9488",
+          "complexity": "high"
+        },
+        {
+          "position": 3500,
+          "entropy": "1.9484",
+          "complexity": "high"
+        },
+        {
+          "position": 3550,
+          "entropy": "1.9077",
+          "complexity": "high"
+        },
+        {
+          "position": 3600,
+          "entropy": "1.9845",
+          "complexity": "high"
+        },
+        {
+          "position": 3650,
+          "entropy": "1.9832",
+          "complexity": "high"
+        },
+        {
+          "position": 3700,
+          "entropy": "1.9869",
+          "complexity": "high"
+        },
+        {
+          "position": 3750,
+          "entropy": "1.9621",
+          "complexity": "high"
+        },
+        {
+          "position": 3800,
+          "entropy": "1.9504",
+          "complexity": "high"
+        },
+        {
+          "position": 3850,
+          "entropy": "1.9461",
+          "complexity": "high"
+        },
+        {
+          "position": 3900,
+          "entropy": "1.9505",
+          "complexity": "high"
+        },
+        {
+          "position": 3950,
+          "entropy": "1.9719",
+          "complexity": "high"
+        },
+        {
+          "position": 4000,
+          "entropy": "1.9738",
+          "complexity": "high"
+        },
+        {
+          "position": 4050,
+          "entropy": "1.9569",
+          "complexity": "high"
+        },
+        {
+          "position": 4100,
+          "entropy": "1.8457",
+          "complexity": "high"
+        },
+        {
+          "position": 4150,
+          "entropy": "1.8940",
+          "complexity": "high"
+        },
+        {
+          "position": 4200,
+          "entropy": "1.9932",
+          "complexity": "high"
+        },
+        {
+          "position": 4250,
+          "entropy": "1.9781",
+          "complexity": "high"
+        },
+        {
+          "position": 4300,
+          "entropy": "1.9621",
+          "complexity": "high"
+        },
+        {
+          "position": 4350,
+          "entropy": "1.9889",
+          "complexity": "high"
+        },
+        {
+          "position": 4400,
+          "entropy": "1.9400",
+          "complexity": "high"
+        },
+        {
+          "position": 4450,
+          "entropy": "1.9314",
+          "complexity": "high"
+        },
+        {
+          "position": 4500,
+          "entropy": "1.9683",
+          "complexity": "high"
+        },
+        {
+          "position": 4550,
+          "entropy": "1.9664",
+          "complexity": "high"
+        },
+        {
+          "position": 4600,
+          "entropy": "1.9864",
+          "complexity": "high"
+        },
+        {
+          "position": 4650,
+          "entropy": "1.9762",
+          "complexity": "high"
+        },
+        {
+          "position": 4700,
+          "entropy": "1.9762",
+          "complexity": "high"
+        },
+        {
+          "position": 4750,
+          "entropy": "1.9897",
+          "complexity": "high"
+        },
+        {
+          "position": 4800,
+          "entropy": "1.9849",
+          "complexity": "high"
+        },
+        {
+          "position": 4850,
+          "entropy": "1.9842",
+          "complexity": "high"
+        },
+        {
+          "position": 4900,
+          "entropy": "1.9901",
+          "complexity": "high"
+        },
+        {
+          "position": 4950,
+          "entropy": "1.9621",
+          "complexity": "high"
+        },
+        {
+          "position": 5000,
+          "entropy": "1.9386",
+          "complexity": "high"
+        },
+        {
+          "position": 5050,
+          "entropy": "1.9673",
+          "complexity": "high"
+        },
+        {
+          "position": 5100,
+          "entropy": "1.9414",
+          "complexity": "high"
+        },
+        {
+          "position": 5150,
+          "entropy": "1.9084",
+          "complexity": "high"
+        },
+        {
+          "position": 5200,
+          "entropy": "1.9191",
+          "complexity": "high"
+        },
+        {
+          "position": 5250,
+          "entropy": "1.9083",
+          "complexity": "high"
+        },
+        {
+          "position": 5300,
+          "entropy": "1.9060",
+          "complexity": "high"
+        },
+        {
+          "position": 5350,
+          "entropy": "1.9550",
+          "complexity": "high"
+        },
+        {
+          "position": 5400,
+          "entropy": "1.9891",
+          "complexity": "high"
+        },
+        {
+          "position": 5450,
+          "entropy": "1.9676",
+          "complexity": "high"
+        },
+        {
+          "position": 5500,
+          "entropy": "1.9938",
+          "complexity": "high"
+        },
+        {
+          "position": 5550,
+          "entropy": "1.9702",
+          "complexity": "high"
+        },
+        {
+          "position": 5600,
+          "entropy": "1.9637",
+          "complexity": "high"
+        }
+      ]
+    },
+    "embedding": {
+      "dimensions": 256,
+      "vector": [
+        0.01403016485443704,
+        0.01104875482286917,
+        0.014205541915117503,
+        0.006839705366538057,
+        0.008067344791301298,
+        0.005085934759733427,
+        0.009294984216064539,
+        0.004910557699052964,
+        0.013328656611715188,
+        0.007891967730620834,
+        0.0061381971238162044,
+        0.0061381971238162044,
+        0.008768853034023149,
+        0.005962820063135742,
+        0.000876885303402315,
+        0.005085934759733427,
+        0.0061381971238162044,
+        0.003332164152928797,
+        0.0028060329708874078,
+        0.0036829182742897227,
+        0.003858295334970186,
+        0.005085934759733427,
+        0.004559803577692038,
+        0.002981410031567871,
+        0.0073658365485794455,
+        0.0043844265170115745,
+        0.004559803577692038,
+        0.004910557699052964,
+        0.0056120659417748155,
+        0.005085934759733427,
+        0.00035075412136092597,
+        0.0036829182742897227,
+        0.017713083128726763,
+        0.005787443002455279,
+        0.008242721851981761,
+        0.003332164152928797,
+        0.005962820063135742,
+        0.005085934759733427,
+        0.006488951245177131,
+        0.0043844265170115745,
+        0.007891967730620834,
+        0.0036829182742897227,
+        0.003156787092248334,
+        0.004209049456331112,
+        0.007716590669940372,
+        0.0043844265170115745,
+        0.001578393546124167,
+        0.004559803577692038,
+        0.0061381971238162044,
+        0.004910557699052964,
+        0.007891967730620834,
+        0.002279901788846019,
+        0.003332164152928797,
+        0.004033672395650649,
+        0.004735180638372501,
+        0.0036829182742897227,
+        0.0007015082427218519,
+        0.00035075412136092597,
+        0.001052262364082778,
+        0,
+        0.0043844265170115745,
+        0.0043844265170115745,
+        0.000876885303402315,
+        0.0036829182742897227,
+        0.006313574184496668,
+        0.0056120659417748155,
+        0.003332164152928797,
+        0.0036829182742897227,
+        0.00175377060680463,
+        0.003858295334970186,
+        0.002279901788846019,
+        0.002981410031567871,
+        0.004559803577692038,
+        0.002630655910206945,
+        0.002455278849526482,
+        0.0028060329708874078,
+        0.003858295334970186,
+        0.004033672395650649,
+        0.00017537706068046299,
+        0.003156787092248334,
+        0.004735180638372501,
+        0.002279901788846019,
+        0.003332164152928797,
+        0.002455278849526482,
+        0.002630655910206945,
+        0.0043844265170115745,
+        0.005085934759733427,
+        0.004033672395650649,
+        0.004735180638372501,
+        0.00350754121360926,
+        0.004209049456331112,
+        0.003332164152928797,
+        0.006488951245177131,
+        0.006488951245177131,
+        0.00017537706068046299,
+        0.003332164152928797,
+        0.012276394247632409,
+        0.0056120659417748155,
+        0.005962820063135742,
+        0.003332164152928797,
+        0.0028060329708874078,
+        0.004559803577692038,
+        0.0056120659417748155,
+        0.002981410031567871,
+        0.006313574184496668,
+        0.004209049456331112,
+        0.004209049456331112,
+        0.002104524728165556,
+        0.0056120659417748155,
+        0.005436688881094353,
+        0.0007015082427218519,
+        0.002630655910206945,
+        0.005962820063135742,
+        0.005085934759733427,
+        0.006839705366538057,
+        0.003156787092248334,
+        0.004910557699052964,
+        0.0028060329708874078,
+        0.008067344791301298,
+        0.003332164152928797,
+        0.00035075412136092597,
+        0.0007015082427218519,
+        0.00035075412136092597,
+        0.00017537706068046299,
+        0.00526131182041389,
+        0.0036829182742897227,
+        0.00017537706068046299,
+        0.002104524728165556,
+        0.015433181339880744,
+        0.008242721851981761,
+        0.00999649245878639,
+        0.0061381971238162044,
+        0.004033672395650649,
+        0.0028060329708874078,
+        0.004735180638372501,
+        0.002455278849526482,
+        0.0061381971238162044,
+        0.004559803577692038,
+        0.005436688881094353,
+        0.004033672395650649,
+        0.004209049456331112,
+        0.0028060329708874078,
+        0.000876885303402315,
+        0.001578393546124167,
+        0.004033672395650649,
+        0.002455278849526482,
+        0.003156787092248334,
+        0.002104524728165556,
+        0.00350754121360926,
+        0.0036829182742897227,
+        0.003156787092248334,
+        0.003858295334970186,
+        0.005962820063135742,
+        0.0043844265170115745,
+        0.003332164152928797,
+        0.001578393546124167,
+        0.003332164152928797,
+        0.004033672395650649,
+        0.00017537706068046299,
+        0.002279901788846019,
+        0.008593475973342687,
+        0.002279901788846019,
+        0.00526131182041389,
+        0.0028060329708874078,
+        0.002455278849526482,
+        0.00350754121360926,
+        0.002455278849526482,
+        0.00175377060680463,
+        0.00350754121360926,
+        0.002279901788846019,
+        0.0014030164854437039,
+        0.002279901788846019,
+        0.003332164152928797,
+        0.003156787092248334,
+        0.00017537706068046299,
+        0.001929147667485093,
+        0.005085934759733427,
+        0.003332164152928797,
+        0.005787443002455279,
+        0.002455278849526482,
+        0.002279901788846019,
+        0.00350754121360926,
+        0.004559803577692038,
+        0.003156787092248334,
+        0.000526131182041389,
+        0.001052262364082778,
+        0.000526131182041389,
+        0.000526131182041389,
+        0.004910557699052964,
+        0.002455278849526482,
+        0.00017537706068046299,
+        0.00175377060680463,
+        0.010347246580147317,
+        0.002455278849526482,
+        0.005962820063135742,
+        0.004033672395650649,
+        0.002104524728165556,
+        0.004735180638372501,
+        0.004910557699052964,
+        0.0043844265170115745,
+        0.01104875482286917,
+        0.006839705366538057,
+        0.004910557699052964,
+        0.00526131182041389,
+        0.0043844265170115745,
+        0.002981410031567871,
+        0.00017537706068046299,
+        0.00350754121360926,
+        0.004033672395650649,
+        0.0028060329708874078,
+        0.003156787092248334,
+        0.002981410031567871,
+        0.0028060329708874078,
+        0.002981410031567871,
+        0.002981410031567871,
+        0.0056120659417748155,
+        0.009294984216064539,
+        0.0036829182742897227,
+        0.004735180638372501,
+        0.004559803577692038,
+        0.0056120659417748155,
+        0.00350754121360926,
+        0.000876885303402315,
+        0.001929147667485093,
+        0.001227639424763241,
+        0.00035075412136092597,
+        0.0007015082427218519,
+        0,
+        0.000526131182041389,
+        0.001052262364082778,
+        0.0007015082427218519,
+        0.0007015082427218519,
+        0.001227639424763241,
+        0,
+        0.0007015082427218519,
+        0,
+        0,
+        0.00035075412136092597,
+        0.00017537706068046299,
+        0.00017537706068046299,
+        0.0056120659417748155,
+        0.0028060329708874078,
+        0.007541213609259909,
+        0.003156787092248334,
+        0.002455278849526482,
+        0.004033672395650649,
+        0.004910557699052964,
+        0.00175377060680463,
+        0.0007015082427218519,
+        0.000876885303402315,
+        0,
+        0,
+        0.004559803577692038,
+        0.002630655910206945,
+        0.00035075412136092597,
+        0.002630655910206945
+      ],
+      "kmerMap": [
+        "AAAA",
+        "AAAT",
+        "AAAG",
+        "AAAC",
+        "AATA",
+        "AATT",
+        "AATG",
+        "AATC",
+        "AAGA",
+        "AAGT",
+        "AAGG",
+        "AAGC",
+        "AACA",
+        "AACT",
+        "AACG",
+        "AACC",
+        "ATAA",
+        "ATAT",
+        "ATAG",
+        "ATAC",
+        "ATTA",
+        "ATTT",
+        "ATTG",
+        "ATTC",
+        "ATGA",
+        "ATGT",
+        "ATGG",
+        "ATGC",
+        "ATCA",
+        "ATCT",
+        "ATCG",
+        "ATCC",
+        "AGAA",
+        "AGAT",
+        "AGAG",
+        "AGAC",
+        "AGTA",
+        "AGTT",
+        "AGTG",
+        "AGTC",
+        "AGGA",
+        "AGGT",
+        "AGGG",
+        "AGGC",
+        "AGCA",
+        "AGCT",
+        "AGCG",
+        "AGCC",
+        "ACAA",
+        "ACAT",
+        "ACAG",
+        "ACAC",
+        "ACTA",
+        "ACTT",
+        "ACTG",
+        "ACTC",
+        "ACGA",
+        "ACGT",
+        "ACGG",
+        "ACGC",
+        "ACCA",
+        "ACCT",
+        "ACCG",
+        "ACCC",
+        "TAAA",
+        "TAAT",
+        "TAAG",
+        "TAAC",
+        "TATA",
+        "TATT",
+        "TATG",
+        "TATC",
+        "TAGA",
+        "TAGT",
+        "TAGG",
+        "TAGC",
+        "TACA",
+        "TACT",
+        "TACG",
+        "TACC",
+        "TTAA",
+        "TTAT",
+        "TTAG",
+        "TTAC",
+        "TTTA",
+        "TTTT",
+        "TTTG",
+        "TTTC",
+        "TTGA",
+        "TTGT",
+        "TTGG",
+        "TTGC",
+        "TTCA",
+        "TTCT",
+        "TTCG",
+        "TTCC",
+        "TGAA",
+        "TGAT",
+        "TGAG",
+        "TGAC",
+        "TGTA",
+        "TGTT",
+        "TGTG",
+        "TGTC",
+        "TGGA",
+        "TGGT",
+        "TGGG",
+        "TGGC",
+        "TGCA",
+        "TGCT",
+        "TGCG",
+        "TGCC",
+        "TCAA",
+        "TCAT",
+        "TCAG",
+        "TCAC",
+        "TCTA",
+        "TCTT",
+        "TCTG",
+        "TCTC",
+        "TCGA",
+        "TCGT",
+        "TCGG",
+        "TCGC",
+        "TCCA",
+        "TCCT",
+        "TCCG",
+        "TCCC",
+        "GAAA",
+        "GAAT",
+        "GAAG",
+        "GAAC",
+        "GATA",
+        "GATT",
+        "GATG",
+        "GATC",
+        "GAGA",
+        "GAGT",
+        "GAGG",
+        "GAGC",
+        "GACA",
+        "GACT",
+        "GACG",
+        "GACC",
+        "GTAA",
+        "GTAT",
+        "GTAG",
+        "GTAC",
+        "GTTA",
+        "GTTT",
+        "GTTG",
+        "GTTC",
+        "GTGA",
+        "GTGT",
+        "GTGG",
+        "GTGC",
+        "GTCA",
+        "GTCT",
+        "GTCG",
+        "GTCC",
+        "GGAA",
+        "GGAT",
+        "GGAG",
+        "GGAC",
+        "GGTA",
+        "GGTT",
+        "GGTG",
+        "GGTC",
+        "GGGA",
+        "GGGT",
+        "GGGG",
+        "GGGC",
+        "GGCA",
+        "GGCT",
+        "GGCG",
+        "GGCC",
+        "GCAA",
+        "GCAT",
+        "GCAG",
+        "GCAC",
+        "GCTA",
+        "GCTT",
+        "GCTG",
+        "GCTC",
+        "GCGA",
+        "GCGT",
+        "GCGG",
+        "GCGC",
+        "GCCA",
+        "GCCT",
+        "GCCG",
+        "GCCC",
+        "CAAA",
+        "CAAT",
+        "CAAG",
+        "CAAC",
+        "CATA",
+        "CATT",
+        "CATG",
+        "CATC",
+        "CAGA",
+        "CAGT",
+        "CAGG",
+        "CAGC",
+        "CACA",
+        "CACT",
+        "CACG",
+        "CACC",
+        "CTAA",
+        "CTAT",
+        "CTAG",
+        "CTAC",
+        "CTTA",
+        "CTTT",
+        "CTTG",
+        "CTTC",
+        "CTGA",
+        "CTGT",
+        "CTGG",
+        "CTGC",
+        "CTCA",
+        "CTCT",
+        "CTCG",
+        "CTCC",
+        "CGAA",
+        "CGAT",
+        "CGAG",
+        "CGAC",
+        "CGTA",
+        "CGTT",
+        "CGTG",
+        "CGTC",
+        "CGGA",
+        "CGGT",
+        "CGGG",
+        "CGGC",
+        "CGCA",
+        "CGCT",
+        "CGCG",
+        "CGCC",
+        "CCAA",
+        "CCAT",
+        "CCAG",
+        "CCAC",
+        "CCTA",
+        "CCTT",
+        "CCTG",
+        "CCTC",
+        "CCGA",
+        "CCGT",
+        "CCGG",
+        "CCGC",
+        "CCCA",
+        "CCCT",
+        "CCCG",
+        "CCCC"
+      ]
+    }
+  },
+  {
+    "geneName": "NM_000546.6 Homo sapiens tumor protein p53 (TP53), transcript variant 1, mRNA",
+    "timestamp": "2025-11-27T18:21:54.002Z",
+    "basicStats": {
+      "length": 2513,
+      "baseCounts": {
+        "A": 532,
+        "T": 640,
+        "G": 621,
+        "C": 720
+      },
+      "gcContent": "53.36",
+      "atContent": "46.64",
+      "gcSkew": "-0.0738",
+      "atSkew": "-0.0922"
+    },
+    "kmerAnalysis": {
+      "k3": {
+        "k": 3,
+        "totalKmers": 64,
+        "topKmers": [
+          [
+            "CCC",
+            90
+          ],
+          [
+            "TTT",
+            85
+          ],
+          [
+            "CCA",
+            76
+          ],
+          [
+            "CTG",
+            76
+          ],
+          [
+            "CAG",
+            64
+          ],
+          [
+            "TGG",
+            64
+          ],
+          [
+            "CCT",
+            64
+          ],
+          [
+            "TCC",
+            60
+          ],
+          [
+            "GCC",
+            58
+          ],
+          [
+            "CAC",
+            58
+          ],
+          [
+            "CTC",
+            56
+          ],
+          [
+            "GGG",
+            55
+          ],
+          [
+            "TCT",
+            54
+          ],
+          [
+            "TTG",
+            53
+          ],
+          [
+            "GAG",
+            52
+          ],
+          [
+            "TGC",
+            52
+          ],
+          [
+            "CTT",
+            52
+          ],
+          [
+            "AGC",
+            51
+          ],
+          [
+            "GGA",
+            51
+          ],
+          [
+            "AGG",
+            48
+          ]
+        ],
+        "uniqueRatio": "0.0255"
+      },
+      "k4": {
+        "k": 4,
+        "totalKmers": 254,
+        "topKmers": [
+          [
+            "TTTT",
+            42
+          ],
+          [
+            "CCCC",
+            32
+          ],
+          [
+            "CTGG",
+            27
+          ],
+          [
+            "CACC",
+            26
+          ],
+          [
+            "CCAG",
+            26
+          ],
+          [
+            "CCCT",
+            26
+          ],
+          [
+            "CTCC",
+            25
+          ],
+          [
+            "TCCC",
+            25
+          ],
+          [
+            "CCAC",
+            24
+          ],
+          [
+            "CCCA",
+            24
+          ],
+          [
+            "TGGG",
+            23
+          ],
+          [
+            "CCTG",
+            23
+          ],
+          [
+            "CAGC",
+            23
+          ],
+          [
+            "GGAG",
+            22
+          ],
+          [
+            "GCCA",
+            21
+          ],
+          [
+            "GCTG",
+            21
+          ],
+          [
+            "CTGC",
+            21
+          ],
+          [
+            "TTTG",
+            21
+          ],
+          [
+            "TGCC",
+            20
+          ],
+          [
+            "GCCC",
+            20
+          ]
+        ],
+        "uniqueRatio": "0.1012"
+      },
+      "k6": {
+        "k": 6,
+        "totalKmers": 1675,
+        "topKmers": [
+          [
+            "TTTTTT",
+            15
+          ],
+          [
+            "CTGGGA",
+            7
+          ],
+          [
+            "CAGCCA",
+            7
+          ],
+          [
+            "CCCAGG",
+            6
+          ],
+          [
+            "CCAGGG",
+            5
+          ],
+          [
+            "GGGAGC",
+            5
+          ],
+          [
+            "GCTGGG",
+            5
+          ],
+          [
+            "CTGTCC",
+            5
+          ],
+          [
+            "TGTCCC",
+            5
+          ],
+          [
+            "CTCCCC",
+            5
+          ],
+          [
+            "CCCCTG",
+            5
+          ],
+          [
+            "CCAGCC",
+            5
+          ],
+          [
+            "CTGGCC",
+            5
+          ],
+          [
+            "CTGCCC",
+            5
+          ],
+          [
+            "CCACCA",
+            5
+          ],
+          [
+            "CCTCCC",
+            5
+          ],
+          [
+            "AGCCAC",
+            4
+          ],
+          [
+            "GCCACC",
+            4
+          ],
+          [
+            "TGCTGG",
+            4
+          ],
+          [
+            "GGGCTC",
+            4
+          ]
+        ],
+        "uniqueRatio": "0.6679"
+      }
+    },
+    "codonUsage": {
+      "codonCounts": {
+        "CTC": 18,
+        "AAA": 11,
+        "AGT": 5,
+        "CTA": 9,
+        "GAG": 11,
+        "CCA": 24,
+        "CCG": 14,
+        "TCC": 21,
+        "AGG": 15,
+        "CAG": 20,
+        "GTA": 5,
+        "GCT": 13,
+        "GGG": 13,
+        "CGG": 6,
+        "GGA": 27,
+        "CAC": 26,
+        "TTT": 34,
+        "GCG": 12,
+        "TTC": 8,
+        "CTG": 20,
+        "TGC": 15,
+        "CGA": 7,
+        "TGA": 22,
+        "GAT": 6,
+        "TGG": 23,
+        "GAC": 8,
+        "CTT": 23,
+        "GGT": 16,
+        "CAT": 20,
+        "GCC": 23,
+        "GCA": 12,
+        "GTC": 15,
+        "AGA": 19,
+        "TAG": 8,
+        "CGT": 6,
+        "CCC": 29,
+        "TCT": 19,
+        "TCA": 9,
+        "AAC": 6,
+        "ATT": 5,
+        "CCT": 15,
+        "ATG": 7,
+        "GAA": 14,
+        "ACT": 13,
+        "CAA": 21,
+        "AGC": 13,
+        "AAT": 6,
+        "TAT": 7,
+        "ACA": 12,
+        "GTT": 12,
+        "GGC": 18,
+        "ACC": 11,
+        "TAC": 7,
+        "ATC": 8,
+        "TGT": 16,
+        "TTG": 16,
+        "GTG": 10,
+        "CGC": 1,
+        "TCG": 4,
+        "TAA": 6,
+        "ACG": 2,
+        "ATA": 5,
+        "AAG": 3,
+        "TTA": 7
+      },
+      "aminoAcidCounts": {
+        "L": 93,
+        "K": 14,
+        "S": 71,
+        "E": 25,
+        "P": 82,
+        "R": 54,
+        "Q": 41,
+        "V": 42,
+        "A": 60,
+        "G": 74,
+        "H": 46,
+        "F": 42,
+        "C": 31,
+        "*": 36,
+        "D": 14,
+        "W": 23,
+        "N": 12,
+        "I": 18,
+        "M": 7,
+        "T": 38,
+        "Y": 14
+      },
+      "rscu": {
+        "TTT": "1.619",
+        "TTC": "0.381",
+        "TTA": "0.452",
+        "TTG": "1.032",
+        "CTT": "1.484",
+        "CTC": "1.161",
+        "CTA": "0.581",
+        "CTG": "1.290",
+        "TCT": "1.606",
+        "TCC": "1.775",
+        "TCA": "0.761",
+        "TCG": "0.338",
+        "AGT": "0.423",
+        "AGC": "1.099",
+        "TAT": "1.000",
+        "TAC": "1.000",
+        "TAA": "0.500",
+        "TAG": "0.667",
+        "TGA": "1.833",
+        "TGT": "1.032",
+        "TGC": "0.968",
+        "TGG": "1.000",
+        "CCT": "0.732",
+        "CCC": "1.415",
+        "CCA": "1.171",
+        "CCG": "0.683",
+        "CAT": "0.870",
+        "CAC": "1.130",
+        "CAA": "1.024",
+        "CAG": "0.976",
+        "CGT": "0.667",
+        "CGC": "0.111",
+        "CGA": "0.778",
+        "CGG": "0.667",
+        "AGA": "2.111",
+        "AGG": "1.667",
+        "ATT": "0.833",
+        "ATC": "1.333",
+        "ATA": "0.833",
+        "ATG": "1.000",
+        "ACT": "1.368",
+        "ACC": "1.158",
+        "ACA": "1.263",
+        "ACG": "0.211",
+        "AAT": "1.000",
+        "AAC": "1.000",
+        "AAA": "1.571",
+        "AAG": "0.429",
+        "GTT": "1.143",
+        "GTC": "1.429",
+        "GTA": "0.476",
+        "GTG": "0.952",
+        "GCT": "0.867",
+        "GCC": "1.533",
+        "GCA": "0.800",
+        "GCG": "0.800",
+        "GAT": "0.857",
+        "GAC": "1.143",
+        "GAA": "1.120",
+        "GAG": "0.880",
+        "GGT": "0.865",
+        "GGC": "0.973",
+        "GGA": "1.459",
+        "GGG": "0.703"
+      },
+      "totalCodons": 837
+    },
+    "regulatoryMotifs": [
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 257,
+        "context": "CCGTCCCAAGCAATGGATGATTTG"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 286,
+        "context": "GTCCCCGGACGATATTGAACAATG"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 295,
+        "context": "CGATATTGAACAATGGTTCACTGA"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 691,
+        "context": "GCGCTGCTCAGATAGCGATGGTCT"
+      },
+      {
+        "motif": "GCCGCC",
+        "description": "GC Box (Promoter)",
+        "position": 804,
+        "context": "TGCCCTATGAGCCGCCTGAGGTTGGC"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 1417,
+        "context": "CCCTTGCTTGCAATAGGTGTGCGT"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 1615,
+        "context": "GGTTAGTTTACAATCAGCCACATT"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 2064,
+        "context": "TGCTCAGGGTCAATTTCTTTTTTC"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 2361,
+        "context": "GCTGGGATTACAATTGTGAGCCAC"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 2494,
+        "context": "TCTTATTTTACAATAAAACTTTGC"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 2495,
+        "context": "CTTATTTTACAATAAAACTTTGCTGC"
+      }
+    ],
+    "orfs": [
+      {
+        "frame": 2,
+        "start": 142,
+        "end": 1324,
+        "length": 1182,
+        "proteinLength": 394,
+        "sequence": "ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACTACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACTGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGAGAGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCCCCAGGGAGCACTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATATTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTCAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGGGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGA"
+      },
+      {
+        "frame": 2,
+        "start": 2053,
+        "end": 2500,
+        "length": 447,
+        "proteinLength": 149,
+        "sequence": "ATGCTCAGGGTCAATTTCTTTTTTCTTTTTTTTTTTTTTTTTTTCTTTTTCTTTGAGACTGGGTCTCGCTTTGTTGCCCAGGCTGGAGTGGAGTGGCGTGATCTTGGCTTACTGCAGCCTTTGCCTCCCCGGCTCGAGCAGTCCTGCCTCAGCCTCCGGAGTAGCTGGGACCACAGGTTCATGCCACCATGGCCAGCCAACTTTTGCATGTTTTGTAGAGATGGGGTCTCACAGTGTTGCCCAGGCTGGTCTCAAACTCCTGGGCTCAGGCGATCCACCTGTCTCAGCCTCCCAGAGTGCTGGGATTACAATTGTGAGCCACCACGTCCAGCTGGAAGGGTCAACATCTTTTACATTCTGCAAGCACATCTGCATTTTCACCCCACCCTTCCCCTCCTTCTCCCTTTTTATATCCCATTTTTATATCGATCTCTTATTTTACAATAA"
+      },
+      {
+        "frame": 3,
+        "start": 677,
+        "end": 881,
+        "length": 204,
+        "proteinLength": 68,
+        "sequence": "ATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACTACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGA"
+      },
+      {
+        "frame": 3,
+        "start": 323,
+        "end": 509,
+        "length": 186,
+        "proteinLength": 62,
+        "sequence": "ATGAAGCTCCCAGAATGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGA"
+      }
+    ],
+    "cpgIslands": [
+      {
+        "start": 0,
+        "end": 250,
+        "gcContent": "61.00",
+        "obsExpRatio": "0.645",
+        "cpgCount": 12
+      },
+      {
+        "start": 500,
+        "end": 800,
+        "gcContent": "61.00",
+        "obsExpRatio": "0.608",
+        "cpgCount": 11
+      }
+    ],
+    "repeats": [
+      {
+        "pattern": "TTTTTTTTTT",
+        "length": 10,
+        "occurrences": 10,
+        "positions": [
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084,
+          2085,
+          2086,
+          2087
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTT",
+        "length": 9,
+        "occurrences": 11,
+        "positions": [
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084,
+          2085,
+          2086,
+          2087
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTT",
+        "length": 11,
+        "occurrences": 9,
+        "positions": [
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084,
+          2085,
+          2086
+        ]
+      },
+      {
+        "pattern": "TTTTTTTT",
+        "length": 8,
+        "occurrences": 12,
+        "positions": [
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084,
+          2085,
+          2086,
+          2087
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTT",
+        "length": 12,
+        "occurrences": 8,
+        "positions": [
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084,
+          2085
+        ]
+      },
+      {
+        "pattern": "TTTTTTT",
+        "length": 7,
+        "occurrences": 13,
+        "positions": [
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084,
+          2085,
+          2086,
+          2087
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTTT",
+        "length": 13,
+        "occurrences": 7,
+        "positions": [
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084
+        ]
+      },
+      {
+        "pattern": "TTTTTT",
+        "length": 6,
+        "occurrences": 15,
+        "positions": [
+          2071,
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084,
+          2085,
+          2086
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTTTT",
+        "length": 14,
+        "occurrences": 6,
+        "positions": [
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTTTTT",
+        "length": 15,
+        "occurrences": 5,
+        "positions": [
+          2078,
+          2079,
+          2080,
+          2081,
+          2082
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTTTTTT",
+        "length": 16,
+        "occurrences": 4,
+        "positions": [
+          2078,
+          2079,
+          2080,
+          2081
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTTTTTTT",
+        "length": 17,
+        "occurrences": 3,
+        "positions": [
+          2078,
+          2079,
+          2080
+        ]
+      },
+      {
+        "pattern": "CTGGGA",
+        "length": 6,
+        "occurrences": 7,
+        "positions": [
+          69,
+          488,
+          934,
+          974,
+          1205,
+          2217,
+          2352
+        ]
+      },
+      {
+        "pattern": "CAGCCA",
+        "length": 6,
+        "occurrences": 7,
+        "positions": [
+          114,
+          494,
+          1090,
+          1239,
+          1619,
+          1927,
+          2246
+        ]
+      },
+      {
+        "pattern": "CCCAGG",
+        "length": 6,
+        "occurrences": 6,
+        "positions": [
+          312,
+          1041,
+          1199,
+          1439,
+          2129,
+          2292
+        ]
+      },
+      {
+        "pattern": "TGCCCAGGCTGG",
+        "length": 12,
+        "occurrences": 3,
+        "positions": [
+          1197,
+          2127,
+          2290
+        ]
+      },
+      {
+        "pattern": "TGCCCAGGCTG",
+        "length": 11,
+        "occurrences": 3,
+        "positions": [
+          1197,
+          2127,
+          2290
+        ]
+      },
+      {
+        "pattern": "GCCCAGGCTGG",
+        "length": 11,
+        "occurrences": 3,
+        "positions": [
+          1198,
+          2128,
+          2291
+        ]
+      },
+      {
+        "pattern": "CCAGGG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          22,
+          450,
+          1042,
+          1216,
+          1658
+        ]
+      },
+      {
+        "pattern": "GGGAGC",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          25,
+          71,
+          1019,
+          1045,
+          1222
+        ]
+      }
+    ],
+    "entropy": {
+      "windowSize": 100,
+      "averageEntropy": "1.9335",
+      "maxEntropy": 2,
+      "windows": [
+        {
+          "position": 0,
+          "entropy": "1.9449",
+          "complexity": "high"
+        },
+        {
+          "position": 50,
+          "entropy": "1.9382",
+          "complexity": "high"
+        },
+        {
+          "position": 100,
+          "entropy": "1.9719",
+          "complexity": "high"
+        },
+        {
+          "position": 150,
+          "entropy": "1.9740",
+          "complexity": "high"
+        },
+        {
+          "position": 200,
+          "entropy": "1.9886",
+          "complexity": "high"
+        },
+        {
+          "position": 250,
+          "entropy": "1.9923",
+          "complexity": "high"
+        },
+        {
+          "position": 300,
+          "entropy": "1.8889",
+          "complexity": "high"
+        },
+        {
+          "position": 350,
+          "entropy": "1.7724",
+          "complexity": "medium"
+        },
+        {
+          "position": 400,
+          "entropy": "1.9132",
+          "complexity": "high"
+        },
+        {
+          "position": 450,
+          "entropy": "1.9733",
+          "complexity": "high"
+        },
+        {
+          "position": 500,
+          "entropy": "1.9506",
+          "complexity": "high"
+        },
+        {
+          "position": 550,
+          "entropy": "1.9070",
+          "complexity": "high"
+        },
+        {
+          "position": 600,
+          "entropy": "1.9314",
+          "complexity": "high"
+        },
+        {
+          "position": 650,
+          "entropy": "1.9710",
+          "complexity": "high"
+        },
+        {
+          "position": 700,
+          "entropy": "1.9815",
+          "complexity": "high"
+        },
+        {
+          "position": 750,
+          "entropy": "1.9994",
+          "complexity": "high"
+        },
+        {
+          "position": 800,
+          "entropy": "1.9807",
+          "complexity": "high"
+        },
+        {
+          "position": 850,
+          "entropy": "1.9892",
+          "complexity": "high"
+        },
+        {
+          "position": 900,
+          "entropy": "1.9807",
+          "complexity": "high"
+        },
+        {
+          "position": 950,
+          "entropy": "1.9341",
+          "complexity": "high"
+        },
+        {
+          "position": 1000,
+          "entropy": "1.8519",
+          "complexity": "high"
+        },
+        {
+          "position": 1050,
+          "entropy": "1.9448",
+          "complexity": "high"
+        },
+        {
+          "position": 1100,
+          "entropy": "1.9875",
+          "complexity": "high"
+        },
+        {
+          "position": 1150,
+          "entropy": "1.9341",
+          "complexity": "high"
+        },
+        {
+          "position": 1200,
+          "entropy": "1.9471",
+          "complexity": "high"
+        },
+        {
+          "position": 1250,
+          "entropy": "1.9640",
+          "complexity": "high"
+        },
+        {
+          "position": 1300,
+          "entropy": "1.9016",
+          "complexity": "high"
+        },
+        {
+          "position": 1350,
+          "entropy": "1.9322",
+          "complexity": "high"
+        },
+        {
+          "position": 1400,
+          "entropy": "1.9790",
+          "complexity": "high"
+        },
+        {
+          "position": 1450,
+          "entropy": "1.9494",
+          "complexity": "high"
+        },
+        {
+          "position": 1500,
+          "entropy": "1.8211",
+          "complexity": "high"
+        },
+        {
+          "position": 1550,
+          "entropy": "1.9508",
+          "complexity": "high"
+        },
+        {
+          "position": 1600,
+          "entropy": "1.9816",
+          "complexity": "high"
+        },
+        {
+          "position": 1650,
+          "entropy": "1.9837",
+          "complexity": "high"
+        },
+        {
+          "position": 1700,
+          "entropy": "1.9855",
+          "complexity": "high"
+        },
+        {
+          "position": 1750,
+          "entropy": "1.9766",
+          "complexity": "high"
+        },
+        {
+          "position": 1800,
+          "entropy": "1.9107",
+          "complexity": "high"
+        },
+        {
+          "position": 1850,
+          "entropy": "1.9572",
+          "complexity": "high"
+        },
+        {
+          "position": 1900,
+          "entropy": "1.9625",
+          "complexity": "high"
+        },
+        {
+          "position": 1950,
+          "entropy": "1.9725",
+          "complexity": "high"
+        },
+        {
+          "position": 2000,
+          "entropy": "1.7241",
+          "complexity": "medium"
+        },
+        {
+          "position": 2050,
+          "entropy": "1.7017",
+          "complexity": "medium"
+        },
+        {
+          "position": 2100,
+          "entropy": "1.8940",
+          "complexity": "high"
+        },
+        {
+          "position": 2150,
+          "entropy": "1.9318",
+          "complexity": "high"
+        },
+        {
+          "position": 2200,
+          "entropy": "1.9837",
+          "complexity": "high"
+        },
+        {
+          "position": 2250,
+          "entropy": "1.9785",
+          "complexity": "high"
+        },
+        {
+          "position": 2300,
+          "entropy": "1.9825",
+          "complexity": "high"
+        },
+        {
+          "position": 2350,
+          "entropy": "1.9544",
+          "complexity": "high"
+        },
+        {
+          "position": 2400,
+          "entropy": "1.7120",
+          "complexity": "medium"
+        }
+      ]
+    },
+    "embedding": {
+      "dimensions": 256,
+      "vector": [
+        0.00398406374501992,
+        0.00199203187250996,
+        0.00199203187250996,
+        0.004382470119521913,
+        0.0015936254980079682,
+        0.0015936254980079682,
+        0.0031872509960159364,
+        0.0015936254980079682,
+        0.004382470119521913,
+        0.00199203187250996,
+        0.004382470119521913,
+        0.0027888446215139444,
+        0.004382470119521913,
+        0.00398406374501992,
+        0.00039840637450199205,
+        0.0035856573705179283,
+        0.001195219123505976,
+        0.002390438247011952,
+        0.001195219123505976,
+        0.00039840637450199205,
+        0.0007968127490039841,
+        0.00597609561752988,
+        0.0015936254980079682,
+        0.00199203187250996,
+        0.004382470119521913,
+        0.0035856573705179283,
+        0.004780876494023904,
+        0.002390438247011952,
+        0.001195219123505976,
+        0.00597609561752988,
+        0.00039840637450199205,
+        0.0035856573705179283,
+        0.004780876494023904,
+        0.0035856573705179283,
+        0.00398406374501992,
+        0.00398406374501992,
+        0.0015936254980079682,
+        0.0027888446215139444,
+        0.0031872509960159364,
+        0.0035856573705179283,
+        0.004780876494023904,
+        0.00398406374501992,
+        0.006772908366533864,
+        0.0035856573705179283,
+        0.004780876494023904,
+        0.005577689243027889,
+        0.002390438247011952,
+        0.007569721115537849,
+        0.004382470119521913,
+        0.004780876494023904,
+        0.004780876494023904,
+        0.0031872509960159364,
+        0.00199203187250996,
+        0.004780876494023904,
+        0.006772908366533864,
+        0.0027888446215139444,
+        0.001195219123505976,
+        0.001195219123505976,
+        0.0015936254980079682,
+        0.00039840637450199205,
+        0.006772908366533864,
+        0.004780876494023904,
+        0.00199203187250996,
+        0.0051792828685258965,
+        0.001195219123505976,
+        0.001195219123505976,
+        0.0015936254980079682,
+        0.001195219123505976,
+        0.001195219123505976,
+        0.00199203187250996,
+        0.0015936254980079682,
+        0.0015936254980079682,
+        0.00199203187250996,
+        0.0015936254980079682,
+        0.00199203187250996,
+        0.0015936254980079682,
+        0.004382470119521913,
+        0.002390438247011952,
+        0.00039840637450199205,
+        0.002390438247011952,
+        0.001195219123505976,
+        0.002390438247011952,
+        0.0015936254980079682,
+        0.0027888446215139444,
+        0.0035856573705179283,
+        0.016733067729083666,
+        0.008366533864541833,
+        0.0051792828685258965,
+        0.00398406374501992,
+        0.005577689243027889,
+        0.0051792828685258965,
+        0.006374501992031873,
+        0.00398406374501992,
+        0.006374501992031873,
+        0.001195219123505976,
+        0.0051792828685258965,
+        0.005577689243027889,
+        0.002390438247011952,
+        0.0051792828685258965,
+        0.00398406374501992,
+        0.002390438247011952,
+        0.006374501992031873,
+        0.005577689243027889,
+        0.00398406374501992,
+        0.006374501992031873,
+        0.004382470119521913,
+        0.009163346613545816,
+        0.005577689243027889,
+        0.00597609561752988,
+        0.0051792828685258965,
+        0.0015936254980079682,
+        0.00796812749003984,
+        0.0035856573705179283,
+        0.00199203187250996,
+        0.005577689243027889,
+        0.005577689243027889,
+        0.0031872509960159364,
+        0.00597609561752988,
+        0.00597609561752988,
+        0.006374501992031873,
+        0.00199203187250996,
+        0,
+        0.0007968127490039841,
+        0.00039840637450199205,
+        0.005577689243027889,
+        0.004780876494023904,
+        0.0035856573705179283,
+        0.0099601593625498,
+        0.0051792828685258965,
+        0.00199203187250996,
+        0.004780876494023904,
+        0.0031872509960159364,
+        0.0007968127490039841,
+        0.002390438247011952,
+        0.005577689243027889,
+        0.0027888446215139444,
+        0.0035856573705179283,
+        0.00398406374501992,
+        0.006374501992031873,
+        0.006772908366533864,
+        0.00398406374501992,
+        0.0035856573705179283,
+        0.0015936254980079682,
+        0.002390438247011952,
+        0.001195219123505976,
+        0.0007968127490039841,
+        0.0027888446215139444,
+        0.00199203187250996,
+        0.0015936254980079682,
+        0.004382470119521913,
+        0.004780876494023904,
+        0.00398406374501992,
+        0.00398406374501992,
+        0.0027888446215139444,
+        0.004780876494023904,
+        0.0035856573705179283,
+        0.00398406374501992,
+        0.0051792828685258965,
+        0.0007968127490039841,
+        0.0051792828685258965,
+        0.004780876494023904,
+        0.00398406374501992,
+        0.008764940239043825,
+        0.0027888446215139444,
+        0.00199203187250996,
+        0.004780876494023904,
+        0.0035856573705179283,
+        0.004780876494023904,
+        0.007171314741035857,
+        0.005577689243027889,
+        0.004382470119521913,
+        0.004780876494023904,
+        0.002390438247011952,
+        0.0051792828685258965,
+        0.0027888446215139444,
+        0.00597609561752988,
+        0.0015936254980079682,
+        0.0031872509960159364,
+        0.004780876494023904,
+        0.004780876494023904,
+        0.00039840637450199205,
+        0.004382470119521913,
+        0.008366533864541833,
+        0.004780876494023904,
+        0.001195219123505976,
+        0.0035856573705179283,
+        0.0007968127490039841,
+        0.00199203187250996,
+        0.008366533864541833,
+        0.005577689243027889,
+        0.001195219123505976,
+        0.00796812749003984,
+        0.00199203187250996,
+        0.0027888446215139444,
+        0.0051792828685258965,
+        0.0035856573705179283,
+        0.0015936254980079682,
+        0.004382470119521913,
+        0.004780876494023904,
+        0.0051792828685258965,
+        0.006374501992031873,
+        0.0035856573705179283,
+        0.006374501992031873,
+        0.009163346613545816,
+        0.004382470119521913,
+        0.006374501992031873,
+        0.00199203187250996,
+        0.010358565737051793,
+        0.0015936254980079682,
+        0.0007968127490039841,
+        0.0015936254980079682,
+        0.004382470119521913,
+        0.00199203187250996,
+        0.006772908366533864,
+        0.006374501992031873,
+        0.005577689243027889,
+        0.004780876494023904,
+        0.006374501992031873,
+        0.010756972111553785,
+        0.008366533864541833,
+        0.007569721115537849,
+        0.00398406374501992,
+        0.0007968127490039841,
+        0.0099601593625498,
+        0,
+        0.0015936254980079682,
+        0.0027888446215139444,
+        0.0007968127490039841,
+        0.0007968127490039841,
+        0.0007968127490039841,
+        0.0027888446215139444,
+        0.0027888446215139444,
+        0.00199203187250996,
+        0.001195219123505976,
+        0.0015936254980079682,
+        0.002390438247011952,
+        0.001195219123505976,
+        0.00199203187250996,
+        0.0007968127490039841,
+        0.0015936254980079682,
+        0.00398406374501992,
+        0.00597609561752988,
+        0.010358565737051793,
+        0.009561752988047808,
+        0.0027888446215139444,
+        0.005577689243027889,
+        0.009163346613545816,
+        0.00796812749003984,
+        0.0007968127490039841,
+        0.002390438247011952,
+        0.00398406374501992,
+        0.0027888446215139444,
+        0.009561752988047808,
+        0.010358565737051793,
+        0.0031872509960159364,
+        0.012749003984063745
+      ],
+      "kmerMap": [
+        "AAAA",
+        "AAAT",
+        "AAAG",
+        "AAAC",
+        "AATA",
+        "AATT",
+        "AATG",
+        "AATC",
+        "AAGA",
+        "AAGT",
+        "AAGG",
+        "AAGC",
+        "AACA",
+        "AACT",
+        "AACG",
+        "AACC",
+        "ATAA",
+        "ATAT",
+        "ATAG",
+        "ATAC",
+        "ATTA",
+        "ATTT",
+        "ATTG",
+        "ATTC",
+        "ATGA",
+        "ATGT",
+        "ATGG",
+        "ATGC",
+        "ATCA",
+        "ATCT",
+        "ATCG",
+        "ATCC",
+        "AGAA",
+        "AGAT",
+        "AGAG",
+        "AGAC",
+        "AGTA",
+        "AGTT",
+        "AGTG",
+        "AGTC",
+        "AGGA",
+        "AGGT",
+        "AGGG",
+        "AGGC",
+        "AGCA",
+        "AGCT",
+        "AGCG",
+        "AGCC",
+        "ACAA",
+        "ACAT",
+        "ACAG",
+        "ACAC",
+        "ACTA",
+        "ACTT",
+        "ACTG",
+        "ACTC",
+        "ACGA",
+        "ACGT",
+        "ACGG",
+        "ACGC",
+        "ACCA",
+        "ACCT",
+        "ACCG",
+        "ACCC",
+        "TAAA",
+        "TAAT",
+        "TAAG",
+        "TAAC",
+        "TATA",
+        "TATT",
+        "TATG",
+        "TATC",
+        "TAGA",
+        "TAGT",
+        "TAGG",
+        "TAGC",
+        "TACA",
+        "TACT",
+        "TACG",
+        "TACC",
+        "TTAA",
+        "TTAT",
+        "TTAG",
+        "TTAC",
+        "TTTA",
+        "TTTT",
+        "TTTG",
+        "TTTC",
+        "TTGA",
+        "TTGT",
+        "TTGG",
+        "TTGC",
+        "TTCA",
+        "TTCT",
+        "TTCG",
+        "TTCC",
+        "TGAA",
+        "TGAT",
+        "TGAG",
+        "TGAC",
+        "TGTA",
+        "TGTT",
+        "TGTG",
+        "TGTC",
+        "TGGA",
+        "TGGT",
+        "TGGG",
+        "TGGC",
+        "TGCA",
+        "TGCT",
+        "TGCG",
+        "TGCC",
+        "TCAA",
+        "TCAT",
+        "TCAG",
+        "TCAC",
+        "TCTA",
+        "TCTT",
+        "TCTG",
+        "TCTC",
+        "TCGA",
+        "TCGT",
+        "TCGG",
+        "TCGC",
+        "TCCA",
+        "TCCT",
+        "TCCG",
+        "TCCC",
+        "GAAA",
+        "GAAT",
+        "GAAG",
+        "GAAC",
+        "GATA",
+        "GATT",
+        "GATG",
+        "GATC",
+        "GAGA",
+        "GAGT",
+        "GAGG",
+        "GAGC",
+        "GACA",
+        "GACT",
+        "GACG",
+        "GACC",
+        "GTAA",
+        "GTAT",
+        "GTAG",
+        "GTAC",
+        "GTTA",
+        "GTTT",
+        "GTTG",
+        "GTTC",
+        "GTGA",
+        "GTGT",
+        "GTGG",
+        "GTGC",
+        "GTCA",
+        "GTCT",
+        "GTCG",
+        "GTCC",
+        "GGAA",
+        "GGAT",
+        "GGAG",
+        "GGAC",
+        "GGTA",
+        "GGTT",
+        "GGTG",
+        "GGTC",
+        "GGGA",
+        "GGGT",
+        "GGGG",
+        "GGGC",
+        "GGCA",
+        "GGCT",
+        "GGCG",
+        "GGCC",
+        "GCAA",
+        "GCAT",
+        "GCAG",
+        "GCAC",
+        "GCTA",
+        "GCTT",
+        "GCTG",
+        "GCTC",
+        "GCGA",
+        "GCGT",
+        "GCGG",
+        "GCGC",
+        "GCCA",
+        "GCCT",
+        "GCCG",
+        "GCCC",
+        "CAAA",
+        "CAAT",
+        "CAAG",
+        "CAAC",
+        "CATA",
+        "CATT",
+        "CATG",
+        "CATC",
+        "CAGA",
+        "CAGT",
+        "CAGG",
+        "CAGC",
+        "CACA",
+        "CACT",
+        "CACG",
+        "CACC",
+        "CTAA",
+        "CTAT",
+        "CTAG",
+        "CTAC",
+        "CTTA",
+        "CTTT",
+        "CTTG",
+        "CTTC",
+        "CTGA",
+        "CTGT",
+        "CTGG",
+        "CTGC",
+        "CTCA",
+        "CTCT",
+        "CTCG",
+        "CTCC",
+        "CGAA",
+        "CGAT",
+        "CGAG",
+        "CGAC",
+        "CGTA",
+        "CGTT",
+        "CGTG",
+        "CGTC",
+        "CGGA",
+        "CGGT",
+        "CGGG",
+        "CGGC",
+        "CGCA",
+        "CGCT",
+        "CGCG",
+        "CGCC",
+        "CCAA",
+        "CCAT",
+        "CCAG",
+        "CCAC",
+        "CCTA",
+        "CCTT",
+        "CCTG",
+        "CCTC",
+        "CCGA",
+        "CCGT",
+        "CCGG",
+        "CCGC",
+        "CCCA",
+        "CCCT",
+        "CCCG",
+        "CCCC"
+      ]
+    }
+  },
+  {
+    "geneName": "NM_000041.4 Homo sapiens apolipoprotein E (APOE), transcript variant 2, mRNA",
+    "timestamp": "2025-11-27T18:21:54.066Z",
+    "basicStats": {
+      "length": 1166,
+      "baseCounts": {
+        "A": 211,
+        "T": 150,
+        "G": 432,
+        "C": 373
+      },
+      "gcContent": "69.04",
+      "atContent": "30.96",
+      "gcSkew": "0.0733",
+      "atSkew": "0.1690"
+    },
+    "kmerAnalysis": {
+      "k3": {
+        "k": 3,
+        "totalKmers": 63,
+        "topKmers": [
+          [
+            "GCC",
+            59
+          ],
+          [
+            "GCG",
+            50
+          ],
+          [
+            "GGC",
+            48
+          ],
+          [
+            "CAG",
+            47
+          ],
+          [
+            "CTG",
+            47
+          ],
+          [
+            "AGG",
+            43
+          ],
+          [
+            "CGC",
+            42
+          ],
+          [
+            "AGC",
+            41
+          ],
+          [
+            "GAG",
+            41
+          ],
+          [
+            "GGA",
+            40
+          ],
+          [
+            "TGG",
+            39
+          ],
+          [
+            "CCC",
+            34
+          ],
+          [
+            "CCG",
+            32
+          ],
+          [
+            "TGC",
+            32
+          ],
+          [
+            "CCT",
+            31
+          ],
+          [
+            "CCA",
+            30
+          ],
+          [
+            "GCA",
+            30
+          ],
+          [
+            "CGG",
+            28
+          ],
+          [
+            "GTG",
+            28
+          ],
+          [
+            "GGG",
+            27
+          ]
+        ],
+        "uniqueRatio": "0.0541"
+      },
+      "k4": {
+        "k": 4,
+        "totalKmers": 211,
+        "topKmers": [
+          [
+            "GGAG",
+            23
+          ],
+          [
+            "GGCC",
+            23
+          ],
+          [
+            "GCAG",
+            23
+          ],
+          [
+            "CAGG",
+            21
+          ],
+          [
+            "CTGG",
+            21
+          ],
+          [
+            "GCGC",
+            21
+          ],
+          [
+            "GAGC",
+            19
+          ],
+          [
+            "CCTG",
+            19
+          ],
+          [
+            "CGCC",
+            19
+          ],
+          [
+            "GCGG",
+            18
+          ],
+          [
+            "CCAG",
+            17
+          ],
+          [
+            "GGTG",
+            17
+          ],
+          [
+            "AGGA",
+            17
+          ],
+          [
+            "GCCG",
+            17
+          ],
+          [
+            "GCTG",
+            17
+          ],
+          [
+            "CAGC",
+            16
+          ],
+          [
+            "GGGC",
+            16
+          ],
+          [
+            "GCCT",
+            16
+          ],
+          [
+            "AGCG",
+            15
+          ],
+          [
+            "CTGC",
+            15
+          ]
+        ],
+        "uniqueRatio": "0.1814"
+      },
+      "k6": {
+        "k": 6,
+        "totalKmers": 777,
+        "topKmers": [
+          [
+            "CAGGCC",
+            8
+          ],
+          [
+            "AGGAGC",
+            7
+          ],
+          [
+            "GGTGGA",
+            6
+          ],
+          [
+            "GGAGGA",
+            6
+          ],
+          [
+            "GCAGGC",
+            6
+          ],
+          [
+            "TGAAGG",
+            5
+          ],
+          [
+            "GCTGCG",
+            5
+          ],
+          [
+            "GAGCTG",
+            5
+          ],
+          [
+            "AGCTGC",
+            5
+          ],
+          [
+            "GGTGCA",
+            5
+          ],
+          [
+            "GTGCAG",
+            5
+          ],
+          [
+            "TGCAGG",
+            5
+          ],
+          [
+            "GAGGAG",
+            5
+          ],
+          [
+            "CTGCAG",
+            5
+          ],
+          [
+            "CGCCTG",
+            5
+          ],
+          [
+            "GCCTGG",
+            5
+          ],
+          [
+            "AGCGCC",
+            5
+          ],
+          [
+            "CCCAGC",
+            4
+          ],
+          [
+            "CCAGCG",
+            4
+          ],
+          [
+            "GAGGTG",
+            4
+          ]
+        ],
+        "uniqueRatio": "0.6693"
+      }
+    },
+    "codonUsage": {
+      "codonCounts": {
+        "CTA": 2,
+        "CTC": 9,
+        "AGC": 11,
+        "CCC": 8,
+        "GGA": 5,
+        "GGT": 3,
+        "GAA": 7,
+        "CGT": 2,
+        "CCT": 4,
+        "TCC": 8,
+        "CCA": 3,
+        "GCC": 27,
+        "GAC": 9,
+        "TGG": 10,
+        "ATC": 2,
+        "ACA": 4,
+        "GGC": 14,
+        "AGG": 2,
+        "AAG": 14,
+        "ATG": 9,
+        "GTT": 1,
+        "CTG": 34,
+        "GCT": 2,
+        "GCG": 9,
+        "TTG": 2,
+        "GTC": 2,
+        "TTC": 4,
+        "GCA": 5,
+        "TGC": 3,
+        "CAG": 32,
+        "GTG": 21,
+        "GAG": 35,
+        "CAA": 2,
+        "CCG": 8,
+        "CGC": 23,
+        "ACC": 9,
+        "TTT": 2,
+        "GAT": 4,
+        "TAC": 4,
+        "TCT": 1,
+        "AAA": 2,
+        "TCG": 1,
+        "ACG": 3,
+        "CGG": 11,
+        "CAC": 3,
+        "GGG": 3,
+        "ACT": 1,
+        "ATA": 1,
+        "AAT": 2,
+        "TGA": 1,
+        "CGA": 1,
+        "TAG": 1,
+        "TCA": 1,
+        "AGT": 1
+      },
+      "aminoAcidCounts": {
+        "L": 47,
+        "S": 23,
+        "P": 23,
+        "G": 25,
+        "E": 42,
+        "R": 39,
+        "A": 43,
+        "D": 13,
+        "W": 10,
+        "I": 3,
+        "T": 17,
+        "K": 16,
+        "M": 9,
+        "V": 24,
+        "F": 6,
+        "C": 3,
+        "Q": 34,
+        "Y": 4,
+        "H": 3,
+        "N": 2,
+        "*": 2
+      },
+      "rscu": {
+        "TTT": "0.667",
+        "TTC": "1.333",
+        "TTA": "0.000",
+        "TTG": "0.255",
+        "CTT": "0.000",
+        "CTC": "1.149",
+        "CTA": "0.255",
+        "CTG": "4.340",
+        "TCT": "0.261",
+        "TCC": "2.087",
+        "TCA": "0.261",
+        "TCG": "0.261",
+        "AGT": "0.261",
+        "AGC": "2.870",
+        "TAT": "0.000",
+        "TAC": "2.000",
+        "TAA": "0.000",
+        "TAG": "1.500",
+        "TGA": "1.500",
+        "TGT": "0.000",
+        "TGC": "2.000",
+        "TGG": "1.000",
+        "CCT": "0.696",
+        "CCC": "1.391",
+        "CCA": "0.522",
+        "CCG": "1.391",
+        "CAT": "0.000",
+        "CAC": "2.000",
+        "CAA": "0.118",
+        "CAG": "1.882",
+        "CGT": "0.308",
+        "CGC": "3.538",
+        "CGA": "0.154",
+        "CGG": "1.692",
+        "AGA": "0.000",
+        "AGG": "0.308",
+        "ATT": "0.000",
+        "ATC": "2.000",
+        "ATA": "1.000",
+        "ATG": "1.000",
+        "ACT": "0.235",
+        "ACC": "2.118",
+        "ACA": "0.941",
+        "ACG": "0.706",
+        "AAT": "2.000",
+        "AAC": "0.000",
+        "AAA": "0.250",
+        "AAG": "1.750",
+        "GTT": "0.167",
+        "GTC": "0.333",
+        "GTA": "0.000",
+        "GTG": "3.500",
+        "GCT": "0.186",
+        "GCC": "2.512",
+        "GCA": "0.465",
+        "GCG": "0.837",
+        "GAT": "0.615",
+        "GAC": "1.385",
+        "GAA": "0.333",
+        "GAG": "1.667",
+        "GGT": "0.480",
+        "GGC": "2.240",
+        "GGA": "0.800",
+        "GGG": "0.480"
+      },
+      "totalCodons": 388
+    },
+    "regulatoryMotifs": [
+      {
+        "motif": "CCAAT",
+        "description": "CCAAT Box",
+        "position": 51,
+        "context": "AGCCGACTGGCCAATCACAGGCAGG"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 52,
+        "context": "GCCGACTGGCCAATCACAGGCAGG"
+      },
+      {
+        "motif": "GCCGCC",
+        "description": "GC Box (Promoter)",
+        "position": 460,
+        "context": "GACGTGTGCGGCCGCCTGGTGCAGTA"
+      },
+      {
+        "motif": "GCCGCC",
+        "description": "GC Box (Promoter)",
+        "position": 696,
+        "context": "CCGCGTGCGGGCCGCCACTGTGGGCT"
+      },
+      {
+        "motif": "GCGCGC",
+        "description": "CpG Island Marker",
+        "position": 764,
+        "context": "GCGAGCGGCTGCGCGCGCGGATGGAG"
+      },
+      {
+        "motif": "GCGCGC",
+        "description": "CpG Island Marker",
+        "position": 766,
+        "context": "GAGCGGCTGCGCGCGCGGATGGAGGA"
+      },
+      {
+        "motif": "GCGCGC",
+        "description": "CpG Island Marker",
+        "position": 839,
+        "context": "TGGCGGAGGTGCGCGCCAAGCTGGAG"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 869,
+        "context": "AGGCCCAGCAGATACGCCTGCAGG"
+      },
+      {
+        "motif": "GCCGCC",
+        "description": "GC Box (Promoter)",
+        "position": 993,
+        "context": "GGGCACCAGCGCCGCCCCTGTGCCCA"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 1013,
+        "context": "TGCCCAGCGACAATCACTGAACGC"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 1140,
+        "context": "ACCCTAGTTTAATAAAGATTCACCAA"
+      }
+    ],
+    "orfs": [
+      {
+        "frame": 1,
+        "start": 69,
+        "end": 1023,
+        "length": 954,
+        "proteinLength": 318,
+        "sequence": "ATGAAGGTTCTGTGGGCTGCGTTGCTGGTCACATTCCTGGCAGGATGCCAGGCCAAGGTGGAGCAAGCGGTGGAGACAGAGCCGGAGCCCGAGCTGCGCCAGCAGACCGAGTGGCAGAGCGGCCAGCGCTGGGAACTGGCACTGGGTCGCTTTTGGGATTACCTGCGCTGGGTGCAGACACTGTCTGAGCAGGTGCAGGAGGAGCTGCTCAGCTCCCAGGTCACCCAGGAACTGAGGGCGCTGATGGACGAGACCATGAAGGAGTTGAAGGCCTACAAATCGGAACTGGAGGAACAACTGACCCCGGTGGCGGAGGAGACGCGGGCACGGCTGTCCAAGGAGCTGCAGGCGGCGCAGGCCCGGCTGGGCGCGGACATGGAGGACGTGTGCGGCCGCCTGGTGCAGTACCGCGGCGAGGTGCAGGCCATGCTCGGCCAGAGCACCGAGGAGCTGCGGGTGCGCCTCGCCTCCCACCTGCGCAAGCTGCGTAAGCGGCTCCTCCGCGATGCCGATGACCTGCAGAAGCGCCTGGCAGTGTACCAGGCCGGGGCCCGCGAGGGCGCCGAGCGCGGCCTCAGCGCCATCCGCGAGCGCCTGGGGCCCCTGGTGGAACAGGGCCGCGTGCGGGCCGCCACTGTGGGCTCCCTGGCCGGCCAGCCGCTACAGGAGCGGGCCCAGGCCTGGGGCGAGCGGCTGCGCGCGCGGATGGAGGAGATGGGCAGCCGGACCCGCGACCGCCTGGACGAGGTGAAGGAGCAGGTGGCGGAGGTGCGCGCCAAGCTGGAGGAGCAGGCCCAGCAGATACGCCTGCAGGCCGAGGCCTTCCAGGCCCGCCTCAAGAGCTGGTTCGAGCCCCTGGTGGAAGACATGCAGCGCCAGTGGGCCGGGCTGGTGGAGAAGGTGCAGGCTGCCGTGGGCACCAGCGCCGCCCCTGTGCCCAGCGACAATCACTGA"
+      },
+      {
+        "frame": 2,
+        "start": 574,
+        "end": 820,
+        "length": 246,
+        "proteinLength": 82,
+        "sequence": "ATGCCGATGACCTGCAGAAGCGCCTGGCAGTGTACCAGGCCGGGGCCCGCGAGGGCGCCGAGCGCGGCCTCAGCGCCATCCGCGAGCGCCTGGGGCCCCTGGTGGAACAGGGCCGCGTGCGGGCCGCCACTGTGGGCTCCCTGGCCGGCCAGCCGCTACAGGAGCGGGCCCAGGCCTGGGGCGAGCGGCTGCGCGCGCGGATGGAGGAGATGGGCAGCCGGACCCGCGACCGCCTGGACGAGGTGA"
+      },
+      {
+        "frame": 3,
+        "start": 113,
+        "end": 257,
+        "length": 144,
+        "proteinLength": 48,
+        "sequence": "ATGCCAGGCCAAGGTGGAGCAAGCGGTGGAGACAGAGCCGGAGCCCGAGCTGCGCCAGCAGACCGAGTGGCAGAGCGGCCAGCGCTGGGAACTGGCACTGGGTCGCTTTTGGGATTACCTGCGCTGGGTGCAGACACTGTCTGA"
+      }
+    ],
+    "cpgIslands": [
+      {
+        "start": 250,
+        "end": 1150,
+        "gcContent": "65.00",
+        "obsExpRatio": "0.645",
+        "cpgCount": 13
+      }
+    ],
+    "repeats": [
+      {
+        "pattern": "CAGGCC",
+        "length": 6,
+        "occurrences": 8,
+        "positions": [
+          117,
+          423,
+          489,
+          609,
+          744,
+          858,
+          879,
+          894
+        ]
+      },
+      {
+        "pattern": "AGGAGC",
+        "length": 6,
+        "occurrences": 7,
+        "positions": [
+          38,
+          268,
+          406,
+          514,
+          733,
+          820,
+          853
+        ]
+      },
+      {
+        "pattern": "GGTGGA",
+        "length": 6,
+        "occurrences": 6,
+        "positions": [
+          125,
+          137,
+          674,
+          926,
+          959,
+          1125
+        ]
+      },
+      {
+        "pattern": "GGAGGA",
+        "length": 6,
+        "occurrences": 6,
+        "positions": [
+          266,
+          356,
+          380,
+          446,
+          776,
+          851
+        ]
+      },
+      {
+        "pattern": "GCAGGC",
+        "length": 6,
+        "occurrences": 6,
+        "positions": [
+          413,
+          422,
+          488,
+          857,
+          878,
+          971
+        ]
+      },
+      {
+        "pattern": "GGTGCAG",
+        "length": 7,
+        "occurrences": 5,
+        "positions": [
+          239,
+          260,
+          467,
+          485,
+          968
+        ]
+      },
+      {
+        "pattern": "TGAAGG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          20,
+          70,
+          325,
+          334,
+          817
+        ]
+      },
+      {
+        "pattern": "GCTGCG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          84,
+          161,
+          518,
+          551,
+          761
+        ]
+      },
+      {
+        "pattern": "GAGCTG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          159,
+          270,
+          408,
+          516,
+          908
+        ]
+      },
+      {
+        "pattern": "AGCTGC",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          160,
+          271,
+          409,
+          517,
+          550
+        ]
+      },
+      {
+        "pattern": "GGTGCA",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          239,
+          260,
+          467,
+          485,
+          968
+        ]
+      },
+      {
+        "pattern": "GTGCAG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          240,
+          261,
+          468,
+          486,
+          969
+        ]
+      },
+      {
+        "pattern": "TGCAGG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          262,
+          412,
+          487,
+          877,
+          970
+        ]
+      },
+      {
+        "pattern": "GAGGAG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          267,
+          381,
+          513,
+          777,
+          852
+        ]
+      },
+      {
+        "pattern": "CTGCAG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          411,
+          585,
+          876,
+          1033,
+          1083
+        ]
+      },
+      {
+        "pattern": "CGCCTG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          462,
+          594,
+          660,
+          804,
+          873
+        ]
+      },
+      {
+        "pattern": "GCCTGG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          463,
+          595,
+          661,
+          747,
+          805
+        ]
+      },
+      {
+        "pattern": "AGCGCC",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          592,
+          645,
+          658,
+          940,
+          990
+        ]
+      },
+      {
+        "pattern": "CCAGGCC",
+        "length": 7,
+        "occurrences": 4,
+        "positions": [
+          116,
+          608,
+          743,
+          893
+        ]
+      },
+      {
+        "pattern": "GAGCTGC",
+        "length": 7,
+        "occurrences": 4,
+        "positions": [
+          159,
+          270,
+          408,
+          516
+        ]
+      }
+    ],
+    "entropy": {
+      "windowSize": 100,
+      "averageEntropy": "1.8455",
+      "maxEntropy": 2,
+      "windows": [
+        {
+          "position": 0,
+          "entropy": "1.9602",
+          "complexity": "high"
+        },
+        {
+          "position": 50,
+          "entropy": "1.9320",
+          "complexity": "high"
+        },
+        {
+          "position": 100,
+          "entropy": "1.8399",
+          "complexity": "high"
+        },
+        {
+          "position": 150,
+          "entropy": "1.8967",
+          "complexity": "high"
+        },
+        {
+          "position": 200,
+          "entropy": "1.9550",
+          "complexity": "high"
+        },
+        {
+          "position": 250,
+          "entropy": "1.9516",
+          "complexity": "high"
+        },
+        {
+          "position": 300,
+          "entropy": "1.8778",
+          "complexity": "high"
+        },
+        {
+          "position": 350,
+          "entropy": "1.7843",
+          "complexity": "medium"
+        },
+        {
+          "position": 400,
+          "entropy": "1.8188",
+          "complexity": "high"
+        },
+        {
+          "position": 450,
+          "entropy": "1.8264",
+          "complexity": "high"
+        },
+        {
+          "position": 500,
+          "entropy": "1.8639",
+          "complexity": "high"
+        },
+        {
+          "position": 550,
+          "entropy": "1.8219",
+          "complexity": "high"
+        },
+        {
+          "position": 600,
+          "entropy": "1.6937",
+          "complexity": "medium"
+        },
+        {
+          "position": 650,
+          "entropy": "1.7410",
+          "complexity": "medium"
+        },
+        {
+          "position": 700,
+          "entropy": "1.7456",
+          "complexity": "medium"
+        },
+        {
+          "position": 750,
+          "entropy": "1.7357",
+          "complexity": "medium"
+        },
+        {
+          "position": 800,
+          "entropy": "1.8255",
+          "complexity": "high"
+        },
+        {
+          "position": 850,
+          "entropy": "1.9032",
+          "complexity": "high"
+        },
+        {
+          "position": 900,
+          "entropy": "1.8582",
+          "complexity": "high"
+        },
+        {
+          "position": 950,
+          "entropy": "1.8563",
+          "complexity": "high"
+        },
+        {
+          "position": 1000,
+          "entropy": "1.8308",
+          "complexity": "high"
+        },
+        {
+          "position": 1050,
+          "entropy": "1.8815",
+          "complexity": "high"
+        }
+      ]
+    },
+    "embedding": {
+      "dimensions": 256,
+      "vector": [
+        0,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0,
+        0.0008598452278589854,
+        0,
+        0,
+        0.0025795356835769563,
+        0.0034393809114359416,
+        0.0008598452278589854,
+        0.006878761822871883,
+        0.005159071367153913,
+        0.0017196904557179708,
+        0.0034393809114359416,
+        0.0008598452278589854,
+        0,
+        0.0008598452278589854,
+        0,
+        0,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0,
+        0,
+        0.0017196904557179708,
+        0.0025795356835769563,
+        0,
+        0.0034393809114359416,
+        0.004299226139294927,
+        0.0017196904557179708,
+        0,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0017196904557179708,
+        0.0034393809114359416,
+        0.0034393809114359416,
+        0.0060189165950128975,
+        0.0008598452278589854,
+        0.0025795356835769563,
+        0.0025795356835769563,
+        0,
+        0.014617368873602751,
+        0.008598452278589854,
+        0.0025795356835769563,
+        0.01117798796216681,
+        0.0060189165950128975,
+        0.006878761822871883,
+        0.012897678417884782,
+        0.009458297506448839,
+        0.0025795356835769563,
+        0.0025795356835769563,
+        0.0034393809114359416,
+        0.0008598452278589854,
+        0,
+        0,
+        0.007738607050730868,
+        0.0008598452278589854,
+        0.0017196904557179708,
+        0.0017196904557179708,
+        0.0008598452278589854,
+        0.004299226139294927,
+        0.0034393809114359416,
+        0.0025795356835769563,
+        0.0034393809114359416,
+        0.0060189165950128975,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.0008598452278589854,
+        0,
+        0,
+        0.0017196904557179708,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0025795356835769563,
+        0.0008598452278589854,
+        0,
+        0,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0017196904557179708,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0025795356835769563,
+        0.005159071367153913,
+        0.0008598452278589854,
+        0.0017196904557179708,
+        0.0017196904557179708,
+        0.0008598452278589854,
+        0,
+        0.0034393809114359416,
+        0.0025795356835769563,
+        0.010318142734307825,
+        0.005159071367153913,
+        0.01117798796216681,
+        0.006878761822871883,
+        0.009458297506448839,
+        0.0025795356835769563,
+        0.010318142734307825,
+        0.005159071367153913,
+        0.0008598452278589854,
+        0,
+        0.0025795356835769563,
+        0.005159071367153913,
+        0,
+        0,
+        0.0017196904557179708,
+        0,
+        0.0008598452278589854,
+        0,
+        0.0017196904557179708,
+        0.0017196904557179708,
+        0.0017196904557179708,
+        0.005159071367153913,
+        0.0025795356835769563,
+        0.004299226139294927,
+        0,
+        0,
+        0.008598452278589854,
+        0.005159071367153913,
+        0.0008598452278589854,
+        0.0017196904557179708,
+        0.0060189165950128975,
+        0,
+        0.005159071367153913,
+        0.0017196904557179708,
+        0.012037833190025795,
+        0.01633705932932072,
+        0.004299226139294927,
+        0.0008598452278589854,
+        0.004299226139294927,
+        0.007738607050730868,
+        0.0008598452278589854,
+        0,
+        0,
+        0.0017196904557179708,
+        0,
+        0.0017196904557179708,
+        0.0017196904557179708,
+        0.0017196904557179708,
+        0.0017196904557179708,
+        0.0017196904557179708,
+        0.01117798796216681,
+        0.009458297506448839,
+        0.0017196904557179708,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0034393809114359416,
+        0.0060189165950128975,
+        0.0025795356835769563,
+        0.019776440240756664,
+        0.0060189165950128975,
+        0,
+        0.0017196904557179708,
+        0.014617368873602751,
+        0.0025795356835769563,
+        0.0025795356835769563,
+        0.0034393809114359416,
+        0.0034393809114359416,
+        0.013757523645743766,
+        0.006878761822871883,
+        0.006878761822871883,
+        0.007738607050730868,
+        0.019776440240756664,
+        0.0017196904557179708,
+        0,
+        0.019776440240756664,
+        0.0034393809114359416,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.014617368873602751,
+        0.004299226139294927,
+        0.006878761822871883,
+        0.0025795356835769563,
+        0.015477214101461736,
+        0.018056749785038694,
+        0.012037833190025795,
+        0.013757523645743766,
+        0.014617368873602751,
+        0.010318142734307825,
+        0.0008598452278589854,
+        0.0017196904557179708,
+        0.0060189165950128975,
+        0.0008598452278589854,
+        0,
+        0.0008598452278589854,
+        0.004299226139294927,
+        0.0008598452278589854,
+        0.0060189165950128975,
+        0.0025795356835769563,
+        0.018056749785038694,
+        0.013757523645743766,
+        0.0017196904557179708,
+        0.0034393809114359416,
+        0.0025795356835769563,
+        0.005159071367153913,
+        0,
+        0,
+        0.0008598452278589854,
+        0.0025795356835769563,
+        0,
+        0.0008598452278589854,
+        0,
+        0.0017196904557179708,
+        0.004299226139294927,
+        0.005159071367153913,
+        0.018056749785038694,
+        0.012897678417884782,
+        0.0034393809114359416,
+        0,
+        0.0017196904557179708,
+        0.006878761822871883,
+        0.0008598452278589854,
+        0.0017196904557179708,
+        0.010318142734307825,
+        0.0034393809114359416,
+        0.0008598452278589854,
+        0.0008598452278589854,
+        0.0034393809114359416,
+        0.0017196904557179708,
+        0.006878761822871883,
+        0.0017196904557179708,
+        0.0060189165950128975,
+        0.009458297506448839,
+        0.0034393809114359416,
+        0.004299226139294927,
+        0.012037833190025795,
+        0.01633705932932072,
+        0.004299226139294927,
+        0.0034393809114359416,
+        0.014617368873602751,
+        0.0034393809114359416,
+        0.0017196904557179708,
+        0.0017196904557179708,
+        0.01633705932932072,
+        0.006878761822871883,
+        0.006878761822871883,
+        0.0025795356835769563,
+        0.0060189165950128975,
+        0.012037833190025795,
+        0.008598452278589854,
+        0.005159071367153913,
+        0.006878761822871883,
+        0.008598452278589854
+      ],
+      "kmerMap": [
+        "AAAA",
+        "AAAT",
+        "AAAG",
+        "AAAC",
+        "AATA",
+        "AATT",
+        "AATG",
+        "AATC",
+        "AAGA",
+        "AAGT",
+        "AAGG",
+        "AAGC",
+        "AACA",
+        "AACT",
+        "AACG",
+        "AACC",
+        "ATAA",
+        "ATAT",
+        "ATAG",
+        "ATAC",
+        "ATTA",
+        "ATTT",
+        "ATTG",
+        "ATTC",
+        "ATGA",
+        "ATGT",
+        "ATGG",
+        "ATGC",
+        "ATCA",
+        "ATCT",
+        "ATCG",
+        "ATCC",
+        "AGAA",
+        "AGAT",
+        "AGAG",
+        "AGAC",
+        "AGTA",
+        "AGTT",
+        "AGTG",
+        "AGTC",
+        "AGGA",
+        "AGGT",
+        "AGGG",
+        "AGGC",
+        "AGCA",
+        "AGCT",
+        "AGCG",
+        "AGCC",
+        "ACAA",
+        "ACAT",
+        "ACAG",
+        "ACAC",
+        "ACTA",
+        "ACTT",
+        "ACTG",
+        "ACTC",
+        "ACGA",
+        "ACGT",
+        "ACGG",
+        "ACGC",
+        "ACCA",
+        "ACCT",
+        "ACCG",
+        "ACCC",
+        "TAAA",
+        "TAAT",
+        "TAAG",
+        "TAAC",
+        "TATA",
+        "TATT",
+        "TATG",
+        "TATC",
+        "TAGA",
+        "TAGT",
+        "TAGG",
+        "TAGC",
+        "TACA",
+        "TACT",
+        "TACG",
+        "TACC",
+        "TTAA",
+        "TTAT",
+        "TTAG",
+        "TTAC",
+        "TTTA",
+        "TTTT",
+        "TTTG",
+        "TTTC",
+        "TTGA",
+        "TTGT",
+        "TTGG",
+        "TTGC",
+        "TTCA",
+        "TTCT",
+        "TTCG",
+        "TTCC",
+        "TGAA",
+        "TGAT",
+        "TGAG",
+        "TGAC",
+        "TGTA",
+        "TGTT",
+        "TGTG",
+        "TGTC",
+        "TGGA",
+        "TGGT",
+        "TGGG",
+        "TGGC",
+        "TGCA",
+        "TGCT",
+        "TGCG",
+        "TGCC",
+        "TCAA",
+        "TCAT",
+        "TCAG",
+        "TCAC",
+        "TCTA",
+        "TCTT",
+        "TCTG",
+        "TCTC",
+        "TCGA",
+        "TCGT",
+        "TCGG",
+        "TCGC",
+        "TCCA",
+        "TCCT",
+        "TCCG",
+        "TCCC",
+        "GAAA",
+        "GAAT",
+        "GAAG",
+        "GAAC",
+        "GATA",
+        "GATT",
+        "GATG",
+        "GATC",
+        "GAGA",
+        "GAGT",
+        "GAGG",
+        "GAGC",
+        "GACA",
+        "GACT",
+        "GACG",
+        "GACC",
+        "GTAA",
+        "GTAT",
+        "GTAG",
+        "GTAC",
+        "GTTA",
+        "GTTT",
+        "GTTG",
+        "GTTC",
+        "GTGA",
+        "GTGT",
+        "GTGG",
+        "GTGC",
+        "GTCA",
+        "GTCT",
+        "GTCG",
+        "GTCC",
+        "GGAA",
+        "GGAT",
+        "GGAG",
+        "GGAC",
+        "GGTA",
+        "GGTT",
+        "GGTG",
+        "GGTC",
+        "GGGA",
+        "GGGT",
+        "GGGG",
+        "GGGC",
+        "GGCA",
+        "GGCT",
+        "GGCG",
+        "GGCC",
+        "GCAA",
+        "GCAT",
+        "GCAG",
+        "GCAC",
+        "GCTA",
+        "GCTT",
+        "GCTG",
+        "GCTC",
+        "GCGA",
+        "GCGT",
+        "GCGG",
+        "GCGC",
+        "GCCA",
+        "GCCT",
+        "GCCG",
+        "GCCC",
+        "CAAA",
+        "CAAT",
+        "CAAG",
+        "CAAC",
+        "CATA",
+        "CATT",
+        "CATG",
+        "CATC",
+        "CAGA",
+        "CAGT",
+        "CAGG",
+        "CAGC",
+        "CACA",
+        "CACT",
+        "CACG",
+        "CACC",
+        "CTAA",
+        "CTAT",
+        "CTAG",
+        "CTAC",
+        "CTTA",
+        "CTTT",
+        "CTTG",
+        "CTTC",
+        "CTGA",
+        "CTGT",
+        "CTGG",
+        "CTGC",
+        "CTCA",
+        "CTCT",
+        "CTCG",
+        "CTCC",
+        "CGAA",
+        "CGAT",
+        "CGAG",
+        "CGAC",
+        "CGTA",
+        "CGTT",
+        "CGTG",
+        "CGTC",
+        "CGGA",
+        "CGGT",
+        "CGGG",
+        "CGGC",
+        "CGCA",
+        "CGCT",
+        "CGCG",
+        "CGCC",
+        "CCAA",
+        "CCAT",
+        "CCAG",
+        "CCAC",
+        "CCTA",
+        "CCTT",
+        "CCTG",
+        "CCTC",
+        "CCGA",
+        "CCGT",
+        "CCGG",
+        "CCGC",
+        "CCCA",
+        "CCCT",
+        "CCCG",
+        "CCCC"
+      ]
+    }
+  },
+  {
+    "geneName": "NM_001126112.3 Homo sapiens tumor protein p53 (TP53), transcript variant 2, mRNA",
+    "timestamp": "2025-11-27T18:21:54.102Z",
+    "basicStats": {
+      "length": 2509,
+      "baseCounts": {
+        "A": 531,
+        "T": 639,
+        "G": 620,
+        "C": 719
+      },
+      "gcContent": "53.37",
+      "atContent": "46.63",
+      "gcSkew": "-0.0739",
+      "atSkew": "-0.0923"
+    },
+    "kmerAnalysis": {
+      "k3": {
+        "k": 3,
+        "totalKmers": 64,
+        "topKmers": [
+          [
+            "CCC",
+            90
+          ],
+          [
+            "TTT",
+            84
+          ],
+          [
+            "CCA",
+            76
+          ],
+          [
+            "CTG",
+            76
+          ],
+          [
+            "TGG",
+            64
+          ],
+          [
+            "CCT",
+            64
+          ],
+          [
+            "CAG",
+            63
+          ],
+          [
+            "TCC",
+            60
+          ],
+          [
+            "GCC",
+            58
+          ],
+          [
+            "CAC",
+            58
+          ],
+          [
+            "CTC",
+            56
+          ],
+          [
+            "GGG",
+            55
+          ],
+          [
+            "TCT",
+            54
+          ],
+          [
+            "TTG",
+            53
+          ],
+          [
+            "GAG",
+            52
+          ],
+          [
+            "TGC",
+            52
+          ],
+          [
+            "CTT",
+            52
+          ],
+          [
+            "GGA",
+            51
+          ],
+          [
+            "AGC",
+            50
+          ],
+          [
+            "AGG",
+            48
+          ]
+        ],
+        "uniqueRatio": "0.0255"
+      },
+      "k4": {
+        "k": 4,
+        "totalKmers": 254,
+        "topKmers": [
+          [
+            "TTTT",
+            41
+          ],
+          [
+            "CCCC",
+            32
+          ],
+          [
+            "CTGG",
+            27
+          ],
+          [
+            "CACC",
+            26
+          ],
+          [
+            "CCAG",
+            26
+          ],
+          [
+            "CCCT",
+            26
+          ],
+          [
+            "CTCC",
+            25
+          ],
+          [
+            "TCCC",
+            25
+          ],
+          [
+            "CCAC",
+            24
+          ],
+          [
+            "CCCA",
+            24
+          ],
+          [
+            "TGGG",
+            23
+          ],
+          [
+            "CCTG",
+            23
+          ],
+          [
+            "GGAG",
+            22
+          ],
+          [
+            "CAGC",
+            22
+          ],
+          [
+            "GCCA",
+            21
+          ],
+          [
+            "GCTG",
+            21
+          ],
+          [
+            "CTGC",
+            21
+          ],
+          [
+            "TTTG",
+            21
+          ],
+          [
+            "TGCC",
+            20
+          ],
+          [
+            "GCCC",
+            20
+          ]
+        ],
+        "uniqueRatio": "0.1014"
+      },
+      "k6": {
+        "k": 6,
+        "totalKmers": 1673,
+        "topKmers": [
+          [
+            "TTTTTT",
+            14
+          ],
+          [
+            "CTGGGA",
+            7
+          ],
+          [
+            "CCCAGG",
+            6
+          ],
+          [
+            "CAGCCA",
+            6
+          ],
+          [
+            "CCAGGG",
+            5
+          ],
+          [
+            "GGGAGC",
+            5
+          ],
+          [
+            "GCTGGG",
+            5
+          ],
+          [
+            "CTGTCC",
+            5
+          ],
+          [
+            "TGTCCC",
+            5
+          ],
+          [
+            "CTCCCC",
+            5
+          ],
+          [
+            "CCCCTG",
+            5
+          ],
+          [
+            "CCAGCC",
+            5
+          ],
+          [
+            "CTGGCC",
+            5
+          ],
+          [
+            "CTGCCC",
+            5
+          ],
+          [
+            "CCACCA",
+            5
+          ],
+          [
+            "CCTCCC",
+            5
+          ],
+          [
+            "AGCCAC",
+            4
+          ],
+          [
+            "GCCACC",
+            4
+          ],
+          [
+            "TGCTGG",
+            4
+          ],
+          [
+            "GGGCTC",
+            4
+          ]
+        ],
+        "uniqueRatio": "0.6681"
+      }
+    },
+    "codonUsage": {
+      "codonCounts": {
+        "CTC": 25,
+        "AAA": 10,
+        "AGT": 5,
+        "CTA": 9,
+        "GAG": 15,
+        "CCA": 31,
+        "CCG": 12,
+        "TCC": 19,
+        "AGG": 17,
+        "CAG": 19,
+        "GTA": 5,
+        "GCT": 14,
+        "GGG": 16,
+        "CGG": 8,
+        "GGA": 26,
+        "CAC": 26,
+        "TTT": 37,
+        "GCG": 10,
+        "TTC": 11,
+        "CTG": 18,
+        "TGC": 16,
+        "CGA": 8,
+        "TGA": 19,
+        "GAT": 9,
+        "TGG": 22,
+        "GAC": 8,
+        "CTT": 20,
+        "GGT": 14,
+        "CAT": 18,
+        "GCC": 21,
+        "GCA": 9,
+        "GTC": 14,
+        "AGA": 18,
+        "TAG": 6,
+        "CGT": 8,
+        "CCC": 27,
+        "TCT": 16,
+        "TCA": 8,
+        "AAC": 8,
+        "ATT": 6,
+        "CCT": 13,
+        "ATG": 8,
+        "GAA": 14,
+        "ACT": 14,
+        "CAA": 21,
+        "AGC": 13,
+        "AAT": 7,
+        "TAT": 7,
+        "ACA": 9,
+        "GTT": 11,
+        "GGC": 19,
+        "ACC": 11,
+        "TAC": 9,
+        "ATC": 8,
+        "TGT": 19,
+        "TTG": 13,
+        "GTG": 8,
+        "CGC": 2,
+        "TCG": 2,
+        "TAA": 7,
+        "ACG": 1,
+        "ATA": 3,
+        "AAG": 2,
+        "TTA": 7
+      },
+      "aminoAcidCounts": {
+        "L": 92,
+        "K": 12,
+        "S": 63,
+        "E": 29,
+        "P": 83,
+        "R": 61,
+        "Q": 40,
+        "V": 38,
+        "A": 54,
+        "G": 75,
+        "H": 44,
+        "F": 48,
+        "C": 35,
+        "*": 32,
+        "D": 17,
+        "W": 22,
+        "N": 15,
+        "I": 17,
+        "M": 8,
+        "T": 35,
+        "Y": 16
+      },
+      "rscu": {
+        "TTT": "1.542",
+        "TTC": "0.458",
+        "TTA": "0.457",
+        "TTG": "0.848",
+        "CTT": "1.304",
+        "CTC": "1.630",
+        "CTA": "0.587",
+        "CTG": "1.174",
+        "TCT": "1.524",
+        "TCC": "1.810",
+        "TCA": "0.762",
+        "TCG": "0.190",
+        "AGT": "0.476",
+        "AGC": "1.238",
+        "TAT": "0.875",
+        "TAC": "1.125",
+        "TAA": "0.656",
+        "TAG": "0.563",
+        "TGA": "1.781",
+        "TGT": "1.086",
+        "TGC": "0.914",
+        "TGG": "1.000",
+        "CCT": "0.627",
+        "CCC": "1.301",
+        "CCA": "1.494",
+        "CCG": "0.578",
+        "CAT": "0.818",
+        "CAC": "1.182",
+        "CAA": "1.050",
+        "CAG": "0.950",
+        "CGT": "0.787",
+        "CGC": "0.197",
+        "CGA": "0.787",
+        "CGG": "0.787",
+        "AGA": "1.770",
+        "AGG": "1.672",
+        "ATT": "1.059",
+        "ATC": "1.412",
+        "ATA": "0.529",
+        "ATG": "1.000",
+        "ACT": "1.600",
+        "ACC": "1.257",
+        "ACA": "1.029",
+        "ACG": "0.114",
+        "AAT": "0.933",
+        "AAC": "1.067",
+        "AAA": "1.667",
+        "AAG": "0.333",
+        "GTT": "1.158",
+        "GTC": "1.474",
+        "GTA": "0.526",
+        "GTG": "0.842",
+        "GCT": "1.037",
+        "GCC": "1.556",
+        "GCA": "0.667",
+        "GCG": "0.741",
+        "GAT": "1.059",
+        "GAC": "0.941",
+        "GAA": "0.966",
+        "GAG": "1.034",
+        "GGT": "0.747",
+        "GGC": "1.013",
+        "GGA": "1.387",
+        "GGG": "0.853"
+      },
+      "totalCodons": 836
+    },
+    "regulatoryMotifs": [
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 254,
+        "context": "CCGTCCCAAGCAATGGATGATTTG"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 283,
+        "context": "GTCCCCGGACGATATTGAACAATG"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 292,
+        "context": "CGATATTGAACAATGGTTCACTGA"
+      },
+      {
+        "motif": "GATA",
+        "description": "GATA Binding Site",
+        "position": 688,
+        "context": "GCGCTGCTCAGATAGCGATGGTCT"
+      },
+      {
+        "motif": "GCCGCC",
+        "description": "GC Box (Promoter)",
+        "position": 801,
+        "context": "TGCCCTATGAGCCGCCTGAGGTTGGC"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 1414,
+        "context": "CCCTTGCTTGCAATAGGTGTGCGT"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 1612,
+        "context": "GGTTAGTTTACAATCAGCCACATT"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 2061,
+        "context": "TGCTCAGGGTCAATTTCTTTTTTC"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 2357,
+        "context": "GCTGGGATTACAATTGTGAGCCAC"
+      },
+      {
+        "motif": "CAAT",
+        "description": "CAAT Box (Promoter)",
+        "position": 2490,
+        "context": "TCTTATTTTACAATAAAACTTTGC"
+      },
+      {
+        "motif": "AATAAA",
+        "description": "Polyadenylation Signal",
+        "position": 2491,
+        "context": "CTTATTTTACAATAAAACTTTGCTGC"
+      }
+    ],
+    "orfs": [
+      {
+        "frame": 2,
+        "start": 139,
+        "end": 1321,
+        "length": 1182,
+        "proteinLength": 394,
+        "sequence": "ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACTACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACTGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGAGAGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCCCCAGGGAGCACTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATATTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTCAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGGGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGA"
+      },
+      {
+        "frame": 1,
+        "start": 2019,
+        "end": 2496,
+        "length": 477,
+        "proteinLength": 159,
+        "sequence": "ATGATGATCTGGATCCACCAAGACTTGTTTTATGCTCAGGGTCAATTTCTTTTTTCTTTTTTTTTTTTTTTTTTCTTTTTCTTTGAGACTGGGTCTCGCTTTGTTGCCCAGGCTGGAGTGGAGTGGCGTGATCTTGGCTTACTGCAGCCTTTGCCTCCCCGGCTCGAGCAGTCCTGCCTCAGCCTCCGGAGTAGCTGGGACCACAGGTTCATGCCACCATGGCCAGCCAACTTTTGCATGTTTTGTAGAGATGGGGTCTCACAGTGTTGCCCAGGCTGGTCTCAAACTCCTGGGCTCAGGCGATCCACCTGTCTCAGCCTCCCAGAGTGCTGGGATTACAATTGTGAGCCACCACGTCCAGCTGGAAGGGTCAACATCTTTTACATTCTGCAAGCACATCTGCATTTTCACCCCACCCTTCCCCTCCTTCTCCCTTTTTATATCCCATTTTTATATCGATCTCTTATTTTACAATAA"
+      },
+      {
+        "frame": 3,
+        "start": 674,
+        "end": 878,
+        "length": 204,
+        "proteinLength": 68,
+        "sequence": "ATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACTACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGA"
+      },
+      {
+        "frame": 3,
+        "start": 320,
+        "end": 506,
+        "length": 186,
+        "proteinLength": 62,
+        "sequence": "ATGAAGCTCCCAGAATGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGA"
+      }
+    ],
+    "cpgIslands": [
+      {
+        "start": 0,
+        "end": 250,
+        "gcContent": "61.00",
+        "obsExpRatio": "0.645",
+        "cpgCount": 12
+      },
+      {
+        "start": 550,
+        "end": 800,
+        "gcContent": "62.00",
+        "obsExpRatio": "0.628",
+        "cpgCount": 12
+      }
+    ],
+    "repeats": [
+      {
+        "pattern": "TTTTTTTTT",
+        "length": 9,
+        "occurrences": 10,
+        "positions": [
+          2075,
+          2076,
+          2077,
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTT",
+        "length": 10,
+        "occurrences": 9,
+        "positions": [
+          2075,
+          2076,
+          2077,
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083
+        ]
+      },
+      {
+        "pattern": "TTTTTTTT",
+        "length": 8,
+        "occurrences": 11,
+        "positions": [
+          2075,
+          2076,
+          2077,
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTT",
+        "length": 11,
+        "occurrences": 8,
+        "positions": [
+          2075,
+          2076,
+          2077,
+          2078,
+          2079,
+          2080,
+          2081,
+          2082
+        ]
+      },
+      {
+        "pattern": "TTTTTT",
+        "length": 6,
+        "occurrences": 14,
+        "positions": [
+          2068,
+          2075,
+          2076,
+          2077,
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083
+        ]
+      },
+      {
+        "pattern": "TTTTTTT",
+        "length": 7,
+        "occurrences": 12,
+        "positions": [
+          2075,
+          2076,
+          2077,
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTT",
+        "length": 12,
+        "occurrences": 7,
+        "positions": [
+          2075,
+          2076,
+          2077,
+          2078,
+          2079,
+          2080,
+          2081
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTTT",
+        "length": 13,
+        "occurrences": 6,
+        "positions": [
+          2075,
+          2076,
+          2077,
+          2078,
+          2079,
+          2080
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTTTT",
+        "length": 14,
+        "occurrences": 5,
+        "positions": [
+          2075,
+          2076,
+          2077,
+          2078,
+          2079
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTTTTT",
+        "length": 15,
+        "occurrences": 4,
+        "positions": [
+          2075,
+          2076,
+          2077,
+          2078
+        ]
+      },
+      {
+        "pattern": "TTTTTTTTTTTTTTTT",
+        "length": 16,
+        "occurrences": 3,
+        "positions": [
+          2075,
+          2076,
+          2077
+        ]
+      },
+      {
+        "pattern": "CTGGGA",
+        "length": 6,
+        "occurrences": 7,
+        "positions": [
+          69,
+          485,
+          931,
+          971,
+          1202,
+          2213,
+          2348
+        ]
+      },
+      {
+        "pattern": "CCCAGG",
+        "length": 6,
+        "occurrences": 6,
+        "positions": [
+          309,
+          1038,
+          1196,
+          1436,
+          2125,
+          2288
+        ]
+      },
+      {
+        "pattern": "CAGCCA",
+        "length": 6,
+        "occurrences": 6,
+        "positions": [
+          491,
+          1087,
+          1236,
+          1616,
+          1924,
+          2242
+        ]
+      },
+      {
+        "pattern": "TGCCCAGGCTGG",
+        "length": 12,
+        "occurrences": 3,
+        "positions": [
+          1194,
+          2123,
+          2286
+        ]
+      },
+      {
+        "pattern": "TGCCCAGGCTG",
+        "length": 11,
+        "occurrences": 3,
+        "positions": [
+          1194,
+          2123,
+          2286
+        ]
+      },
+      {
+        "pattern": "GCCCAGGCTGG",
+        "length": 11,
+        "occurrences": 3,
+        "positions": [
+          1195,
+          2124,
+          2287
+        ]
+      },
+      {
+        "pattern": "CCAGGG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          22,
+          447,
+          1039,
+          1213,
+          1655
+        ]
+      },
+      {
+        "pattern": "GGGAGC",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          25,
+          71,
+          1016,
+          1042,
+          1219
+        ]
+      },
+      {
+        "pattern": "GCTGGG",
+        "length": 6,
+        "occurrences": 5,
+        "positions": [
+          39,
+          68,
+          1201,
+          2212,
+          2347
+        ]
+      }
+    ],
+    "entropy": {
+      "windowSize": 100,
+      "averageEntropy": "1.9325",
+      "maxEntropy": 2,
+      "windows": [
+        {
+          "position": 0,
+          "entropy": "1.9449",
+          "complexity": "high"
+        },
+        {
+          "position": 50,
+          "entropy": "1.9279",
+          "complexity": "high"
+        },
+        {
+          "position": 100,
+          "entropy": "1.9719",
+          "complexity": "high"
+        },
+        {
+          "position": 150,
+          "entropy": "1.9713",
+          "complexity": "high"
+        },
+        {
+          "position": 200,
+          "entropy": "1.9897",
+          "complexity": "high"
+        },
+        {
+          "position": 250,
+          "entropy": "1.9923",
+          "complexity": "high"
+        },
+        {
+          "position": 300,
+          "entropy": "1.8576",
+          "complexity": "high"
+        },
+        {
+          "position": 350,
+          "entropy": "1.7751",
+          "complexity": "medium"
+        },
+        {
+          "position": 400,
+          "entropy": "1.9271",
+          "complexity": "high"
+        },
+        {
+          "position": 450,
+          "entropy": "1.9699",
+          "complexity": "high"
+        },
+        {
+          "position": 500,
+          "entropy": "1.9407",
+          "complexity": "high"
+        },
+        {
+          "position": 550,
+          "entropy": "1.8998",
+          "complexity": "high"
+        },
+        {
+          "position": 600,
+          "entropy": "1.9429",
+          "complexity": "high"
+        },
+        {
+          "position": 650,
+          "entropy": "1.9767",
+          "complexity": "high"
+        },
+        {
+          "position": 700,
+          "entropy": "1.9855",
+          "complexity": "high"
+        },
+        {
+          "position": 750,
+          "entropy": "1.9983",
+          "complexity": "high"
+        },
+        {
+          "position": 800,
+          "entropy": "1.9760",
+          "complexity": "high"
+        },
+        {
+          "position": 850,
+          "entropy": "1.9923",
+          "complexity": "high"
+        },
+        {
+          "position": 900,
+          "entropy": "1.9683",
+          "complexity": "high"
+        },
+        {
+          "position": 950,
+          "entropy": "1.9211",
+          "complexity": "high"
+        },
+        {
+          "position": 1000,
+          "entropy": "1.8475",
+          "complexity": "high"
+        },
+        {
+          "position": 1050,
+          "entropy": "1.9493",
+          "complexity": "high"
+        },
+        {
+          "position": 1100,
+          "entropy": "1.9926",
+          "complexity": "high"
+        },
+        {
+          "position": 1150,
+          "entropy": "1.9419",
+          "complexity": "high"
+        },
+        {
+          "position": 1200,
+          "entropy": "1.9466",
+          "complexity": "high"
+        },
+        {
+          "position": 1250,
+          "entropy": "1.9507",
+          "complexity": "high"
+        },
+        {
+          "position": 1300,
+          "entropy": "1.8826",
+          "complexity": "high"
+        },
+        {
+          "position": 1350,
+          "entropy": "1.9234",
+          "complexity": "high"
+        },
+        {
+          "position": 1400,
+          "entropy": "1.9785",
+          "complexity": "high"
+        },
+        {
+          "position": 1450,
+          "entropy": "1.9378",
+          "complexity": "high"
+        },
+        {
+          "position": 1500,
+          "entropy": "1.8252",
+          "complexity": "high"
+        },
+        {
+          "position": 1550,
+          "entropy": "1.9550",
+          "complexity": "high"
+        },
+        {
+          "position": 1600,
+          "entropy": "1.9923",
+          "complexity": "high"
+        },
+        {
+          "position": 1650,
+          "entropy": "1.9832",
+          "complexity": "high"
+        },
+        {
+          "position": 1700,
+          "entropy": "1.9738",
+          "complexity": "high"
+        },
+        {
+          "position": 1750,
+          "entropy": "1.9813",
+          "complexity": "high"
+        },
+        {
+          "position": 1800,
+          "entropy": "1.9107",
+          "complexity": "high"
+        },
+        {
+          "position": 1850,
+          "entropy": "1.9591",
+          "complexity": "high"
+        },
+        {
+          "position": 1900,
+          "entropy": "1.9650",
+          "complexity": "high"
+        },
+        {
+          "position": 1950,
+          "entropy": "1.9710",
+          "complexity": "high"
+        },
+        {
+          "position": 2000,
+          "entropy": "1.7031",
+          "complexity": "medium"
+        },
+        {
+          "position": 2050,
+          "entropy": "1.7493",
+          "complexity": "medium"
+        },
+        {
+          "position": 2100,
+          "entropy": "1.9099",
+          "complexity": "high"
+        },
+        {
+          "position": 2150,
+          "entropy": "1.9263",
+          "complexity": "high"
+        },
+        {
+          "position": 2200,
+          "entropy": "1.9764",
+          "complexity": "high"
+        },
+        {
+          "position": 2250,
+          "entropy": "1.9652",
+          "complexity": "high"
+        },
+        {
+          "position": 2300,
+          "entropy": "1.9862",
+          "complexity": "high"
+        },
+        {
+          "position": 2350,
+          "entropy": "1.9470",
+          "complexity": "high"
+        },
+        {
+          "position": 2400,
+          "entropy": "1.7300",
+          "complexity": "medium"
+        }
+      ]
+    },
+    "embedding": {
+      "dimensions": 256,
+      "vector": [
+        0.0039904229848363925,
+        0.0019952114924181963,
+        0.0019952114924181963,
+        0.004389465283320032,
+        0.0015961691939345571,
+        0.0015961691939345571,
+        0.0031923383878691143,
+        0.0015961691939345571,
+        0.004389465283320032,
+        0.0019952114924181963,
+        0.004389465283320032,
+        0.002793296089385475,
+        0.004389465283320032,
+        0.0039904229848363925,
+        0.0003990422984836393,
+        0.003591380686352753,
+        0.0011971268954509178,
+        0.0023942537909018356,
+        0.0011971268954509178,
+        0.0003990422984836393,
+        0.0007980845969672786,
+        0.005985634477254589,
+        0.0015961691939345571,
+        0.0019952114924181963,
+        0.004389465283320032,
+        0.003591380686352753,
+        0.004788507581803671,
+        0.0023942537909018356,
+        0.0011971268954509178,
+        0.005985634477254589,
+        0.0003990422984836393,
+        0.003591380686352753,
+        0.004788507581803671,
+        0.003591380686352753,
+        0.0039904229848363925,
+        0.0039904229848363925,
+        0.0015961691939345571,
+        0.002793296089385475,
+        0.0031923383878691143,
+        0.003591380686352753,
+        0.004788507581803671,
+        0.0039904229848363925,
+        0.006783719074221868,
+        0.003591380686352753,
+        0.004788507581803671,
+        0.00558659217877095,
+        0.0023942537909018356,
+        0.007182761372705506,
+        0.004389465283320032,
+        0.004788507581803671,
+        0.004788507581803671,
+        0.0031923383878691143,
+        0.0019952114924181963,
+        0.004788507581803671,
+        0.006783719074221868,
+        0.002793296089385475,
+        0.0011971268954509178,
+        0.0011971268954509178,
+        0.0015961691939345571,
+        0.0003990422984836393,
+        0.006783719074221868,
+        0.004788507581803671,
+        0.0019952114924181963,
+        0.0051875498802873106,
+        0.0011971268954509178,
+        0.0011971268954509178,
+        0.0015961691939345571,
+        0.0011971268954509178,
+        0.0011971268954509178,
+        0.0019952114924181963,
+        0.0015961691939345571,
+        0.0015961691939345571,
+        0.0019952114924181963,
+        0.0015961691939345571,
+        0.0019952114924181963,
+        0.0015961691939345571,
+        0.004389465283320032,
+        0.0023942537909018356,
+        0.0003990422984836393,
+        0.0023942537909018356,
+        0.0011971268954509178,
+        0.0023942537909018356,
+        0.0015961691939345571,
+        0.002793296089385475,
+        0.003591380686352753,
+        0.01636073423782921,
+        0.008379888268156424,
+        0.0051875498802873106,
+        0.0039904229848363925,
+        0.00558659217877095,
+        0.0051875498802873106,
+        0.006384676775738229,
+        0.0039904229848363925,
+        0.006384676775738229,
+        0.0011971268954509178,
+        0.0051875498802873106,
+        0.00558659217877095,
+        0.0023942537909018356,
+        0.0051875498802873106,
+        0.0039904229848363925,
+        0.0023942537909018356,
+        0.006384676775738229,
+        0.00558659217877095,
+        0.0039904229848363925,
+        0.006384676775738229,
+        0.004389465283320032,
+        0.009177972865123703,
+        0.00558659217877095,
+        0.005985634477254589,
+        0.0051875498802873106,
+        0.0015961691939345571,
+        0.007980845969672785,
+        0.003591380686352753,
+        0.0019952114924181963,
+        0.00558659217877095,
+        0.00558659217877095,
+        0.0031923383878691143,
+        0.005985634477254589,
+        0.005985634477254589,
+        0.006384676775738229,
+        0.0019952114924181963,
+        0,
+        0.0007980845969672786,
+        0.0003990422984836393,
+        0.00558659217877095,
+        0.004788507581803671,
+        0.003591380686352753,
+        0.009976057462090982,
+        0.0051875498802873106,
+        0.0019952114924181963,
+        0.004788507581803671,
+        0.0031923383878691143,
+        0.0007980845969672786,
+        0.0023942537909018356,
+        0.00558659217877095,
+        0.002793296089385475,
+        0.003591380686352753,
+        0.0039904229848363925,
+        0.006384676775738229,
+        0.006783719074221868,
+        0.0039904229848363925,
+        0.003591380686352753,
+        0.0015961691939345571,
+        0.0023942537909018356,
+        0.0011971268954509178,
+        0.0007980845969672786,
+        0.002793296089385475,
+        0.0019952114924181963,
+        0.0015961691939345571,
+        0.004389465283320032,
+        0.004788507581803671,
+        0.0039904229848363925,
+        0.0039904229848363925,
+        0.002793296089385475,
+        0.004788507581803671,
+        0.003591380686352753,
+        0.0039904229848363925,
+        0.0051875498802873106,
+        0.0007980845969672786,
+        0.0051875498802873106,
+        0.004788507581803671,
+        0.0039904229848363925,
+        0.008778930566640064,
+        0.002793296089385475,
+        0.0019952114924181963,
+        0.004788507581803671,
+        0.003591380686352753,
+        0.004788507581803671,
+        0.007182761372705506,
+        0.00558659217877095,
+        0.004389465283320032,
+        0.004788507581803671,
+        0.0019952114924181963,
+        0.0051875498802873106,
+        0.002793296089385475,
+        0.006384676775738229,
+        0.0015961691939345571,
+        0.0031923383878691143,
+        0.004389465283320032,
+        0.004788507581803671,
+        0.0003990422984836393,
+        0.004389465283320032,
+        0.008379888268156424,
+        0.004788507581803671,
+        0.0011971268954509178,
+        0.003591380686352753,
+        0.0007980845969672786,
+        0.0019952114924181963,
+        0.008379888268156424,
+        0.00558659217877095,
+        0.0011971268954509178,
+        0.007980845969672785,
+        0.0019952114924181963,
+        0.002793296089385475,
+        0.0051875498802873106,
+        0.003591380686352753,
+        0.0015961691939345571,
+        0.004389465283320032,
+        0.004788507581803671,
+        0.0051875498802873106,
+        0.006384676775738229,
+        0.003591380686352753,
+        0.006384676775738229,
+        0.008778930566640064,
+        0.004389465283320032,
+        0.006384676775738229,
+        0.0019952114924181963,
+        0.010375099760574621,
+        0.0015961691939345571,
+        0.0007980845969672786,
+        0.0015961691939345571,
+        0.004389465283320032,
+        0.0019952114924181963,
+        0.006783719074221868,
+        0.006384676775738229,
+        0.00558659217877095,
+        0.004788507581803671,
+        0.006384676775738229,
+        0.01077414205905826,
+        0.008379888268156424,
+        0.007581803671189146,
+        0.0039904229848363925,
+        0.0007980845969672786,
+        0.009976057462090982,
+        0,
+        0.0015961691939345571,
+        0.002793296089385475,
+        0.0007980845969672786,
+        0.0007980845969672786,
+        0.0007980845969672786,
+        0.002793296089385475,
+        0.002793296089385475,
+        0.0019952114924181963,
+        0.0011971268954509178,
+        0.0015961691939345571,
+        0.0023942537909018356,
+        0.0011971268954509178,
+        0.0019952114924181963,
+        0.0007980845969672786,
+        0.0015961691939345571,
+        0.0039904229848363925,
+        0.005985634477254589,
+        0.010375099760574621,
+        0.009577015163607342,
+        0.002793296089385475,
+        0.00558659217877095,
+        0.009177972865123703,
+        0.007980845969672785,
+        0.0007980845969672786,
+        0.0023942537909018356,
+        0.0039904229848363925,
+        0.002793296089385475,
+        0.009577015163607342,
+        0.010375099760574621,
+        0.0031923383878691143,
+        0.012769353551476457
+      ],
+      "kmerMap": [
+        "AAAA",
+        "AAAT",
+        "AAAG",
+        "AAAC",
+        "AATA",
+        "AATT",
+        "AATG",
+        "AATC",
+        "AAGA",
+        "AAGT",
+        "AAGG",
+        "AAGC",
+        "AACA",
+        "AACT",
+        "AACG",
+        "AACC",
+        "ATAA",
+        "ATAT",
+        "ATAG",
+        "ATAC",
+        "ATTA",
+        "ATTT",
+        "ATTG",
+        "ATTC",
+        "ATGA",
+        "ATGT",
+        "ATGG",
+        "ATGC",
+        "ATCA",
+        "ATCT",
+        "ATCG",
+        "ATCC",
+        "AGAA",
+        "AGAT",
+        "AGAG",
+        "AGAC",
+        "AGTA",
+        "AGTT",
+        "AGTG",
+        "AGTC",
+        "AGGA",
+        "AGGT",
+        "AGGG",
+        "AGGC",
+        "AGCA",
+        "AGCT",
+        "AGCG",
+        "AGCC",
+        "ACAA",
+        "ACAT",
+        "ACAG",
+        "ACAC",
+        "ACTA",
+        "ACTT",
+        "ACTG",
+        "ACTC",
+        "ACGA",
+        "ACGT",
+        "ACGG",
+        "ACGC",
+        "ACCA",
+        "ACCT",
+        "ACCG",
+        "ACCC",
+        "TAAA",
+        "TAAT",
+        "TAAG",
+        "TAAC",
+        "TATA",
+        "TATT",
+        "TATG",
+        "TATC",
+        "TAGA",
+        "TAGT",
+        "TAGG",
+        "TAGC",
+        "TACA",
+        "TACT",
+        "TACG",
+        "TACC",
+        "TTAA",
+        "TTAT",
+        "TTAG",
+        "TTAC",
+        "TTTA",
+        "TTTT",
+        "TTTG",
+        "TTTC",
+        "TTGA",
+        "TTGT",
+        "TTGG",
+        "TTGC",
+        "TTCA",
+        "TTCT",
+        "TTCG",
+        "TTCC",
+        "TGAA",
+        "TGAT",
+        "TGAG",
+        "TGAC",
+        "TGTA",
+        "TGTT",
+        "TGTG",
+        "TGTC",
+        "TGGA",
+        "TGGT",
+        "TGGG",
+        "TGGC",
+        "TGCA",
+        "TGCT",
+        "TGCG",
+        "TGCC",
+        "TCAA",
+        "TCAT",
+        "TCAG",
+        "TCAC",
+        "TCTA",
+        "TCTT",
+        "TCTG",
+        "TCTC",
+        "TCGA",
+        "TCGT",
+        "TCGG",
+        "TCGC",
+        "TCCA",
+        "TCCT",
+        "TCCG",
+        "TCCC",
+        "GAAA",
+        "GAAT",
+        "GAAG",
+        "GAAC",
+        "GATA",
+        "GATT",
+        "GATG",
+        "GATC",
+        "GAGA",
+        "GAGT",
+        "GAGG",
+        "GAGC",
+        "GACA",
+        "GACT",
+        "GACG",
+        "GACC",
+        "GTAA",
+        "GTAT",
+        "GTAG",
+        "GTAC",
+        "GTTA",
+        "GTTT",
+        "GTTG",
+        "GTTC",
+        "GTGA",
+        "GTGT",
+        "GTGG",
+        "GTGC",
+        "GTCA",
+        "GTCT",
+        "GTCG",
+        "GTCC",
+        "GGAA",
+        "GGAT",
+        "GGAG",
+        "GGAC",
+        "GGTA",
+        "GGTT",
+        "GGTG",
+        "GGTC",
+        "GGGA",
+        "GGGT",
+        "GGGG",
+        "GGGC",
+        "GGCA",
+        "GGCT",
+        "GGCG",
+        "GGCC",
+        "GCAA",
+        "GCAT",
+        "GCAG",
+        "GCAC",
+        "GCTA",
+        "GCTT",
+        "GCTG",
+        "GCTC",
+        "GCGA",
+        "GCGT",
+        "GCGG",
+        "GCGC",
+        "GCCA",
+        "GCCT",
+        "GCCG",
+        "GCCC",
+        "CAAA",
+        "CAAT",
+        "CAAG",
+        "CAAC",
+        "CATA",
+        "CATT",
+        "CATG",
+        "CATC",
+        "CAGA",
+        "CAGT",
+        "CAGG",
+        "CAGC",
+        "CACA",
+        "CACT",
+        "CACG",
+        "CACC",
+        "CTAA",
+        "CTAT",
+        "CTAG",
+        "CTAC",
+        "CTTA",
+        "CTTT",
+        "CTTG",
+        "CTTC",
+        "CTGA",
+        "CTGT",
+        "CTGG",
+        "CTGC",
+        "CTCA",
+        "CTCT",
+        "CTCG",
+        "CTCC",
+        "CGAA",
+        "CGAT",
+        "CGAG",
+        "CGAC",
+        "CGTA",
+        "CGTT",
+        "CGTG",
+        "CGTC",
+        "CGGA",
+        "CGGT",
+        "CGGG",
+        "CGGC",
+        "CGCA",
+        "CGCT",
+        "CGCG",
+        "CGCC",
+        "CCAA",
+        "CCAT",
+        "CCAG",
+        "CCAC",
+        "CCTA",
+        "CCTT",
+        "CCTG",
+        "CCTC",
+        "CCGA",
+        "CCGT",
+        "CCGG",
+        "CCGC",
+        "CCCA",
+        "CCCT",
+        "CCCG",
+        "CCCC"
+      ]
+    }
+  }
+]
